@@ -15,6 +15,10 @@
 #+nil
 (focal-length-thick-lens-in-air 100 -100 1.515 12)
 
+#+nil
+(/
+ (focal-length-thick-lens-in-air 0 -100 1.5 2))
+
 (defun accum-thickness (sys)
   (let ((start 0)
 	(thick-old 0))
@@ -72,19 +76,12 @@
 (defun principal-plane (sys &optional (h 0.0001))
   (let* ((start (v h 0 0))
 	 (dir (v 0 0 1))
-	 (old-index 1d0))
-    (loop for (curv index center-z) in
-	 (calc-centers (accum-thickness sys))
-       collect
-	 (prog1
-	     (multiple-value-bind (start-new dir-new)
-		 (trace-ray start dir (v 0 0 center-z)
-			    (/ curv)
-			    (/ old-index index))
-	       (setf dir dir-new
-		     start start-new))
-	   (setf old-index index)))
-    (let* ((xd (aref dir 0))
+	 (p-d (trace-sys sys start dir :only-points nil)))
+    
+    (let* ((last-pd (first (last p-d)))
+	   (start (first last-pd))
+	   (dir (second last-pd))
+	   (xd (aref dir 0))
 	   (zd (aref dir 2))
 	   (xt (aref start 0))
 	   (zt (aref start 2))
@@ -94,6 +91,15 @@
 	   (zp (+ zt (* alpha zd))))
       (values (- z0 zp) zp))))
 
+#+nil
+(let ((sys (unsplit-optical-system ;; curv index thick
+	    `(,(append '(0d0)
+		       (mapcar #'/ '(100d0))
+		       '(0d0 0d0))
+	       ,(mapcar #'(lambda (x) (+ 1d0 (/ x 1000d0))) 
+			'(0 500 0))
+	       (0 3 0)))))
+  (principal-plane sys))
 
 (defun split-optical-system (sys)
   (let ((curvs (loop for (curv ind thick) in sys collect curv))
@@ -365,26 +371,28 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
 (calc-centers
  (accum-thickness (reverse-optical-system *zeiss100*)))
 
-(defun trace-sys (sys start dir &optional (old-index 1d0))
+(defun trace-sys (sys start dir &key
+				  (old-index (second (first sys)))
+				  (only-points t))
   (loop for (curv index center-z) in (calc-centers (accum-thickness sys)) collect	   
        (let ((n (v 0 0 -1))
 	     (cz (v 0 0 center-z))
 	     (eta (/ old-index index)))
 	 (if (= curv 0)
-	     (psetf start (intersect-plane start dir cz n)
+	     (psetf start (intersect-plane start dir cz n) ;; refract on plane
 		    dir (refract-plane dir n eta))
-	     (multiple-value-setq (start dir)
+	     (multiple-value-setq (start dir) ;; refract on sphere
 	       (trace-ray start dir cz (/ curv) eta)))
-	 (setf old-index index)
-	 start)))
-
+	 (setf old-index index) ;; always remember last index
+	 (if only-points 
+	   start
+	   (list start dir)))))
 
 (declaim (optimize (speed 1) (safety 3) (debug 3)))
-
-
 #+nil
 (progn
- #+nil (defparameter *zeiss100* 
+  #+nil
+  (defparameter *zeiss100* 
     (unsplit-optical-system ;; zeiss US2009/0284841 cheap planachromat
      ;; tubelength 200, 100x NA1.25
      ;; visual field factor 20, .28 mm working distance
@@ -393,19 +401,20 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
 		(mapcar #'/ '(-1.9845 -32.1451 -5.8498 -87.1808 10.0650
 			      -16.4805 16.4805 -10.0650 87.1808 8.8700
 			      4.4577 2.4528 -2.4528 -4.4577))
-		'(0d0))
+		`(0d0 0d0 ,(/ -100d0) 0d0))
 	,(mapcar #'(lambda (x) (+ 1d0 (/ x 1000d0))) 
-		 '(525 518 517 0 758 0 762 667 0 667 762 0 489 813 0 813 0 0))
-	(.17 .281 2.770 .2 2.2 7.127 3. 4. .2 4. 3. 4.823 6.5 4. 1.8 4. .5 100))))
+		 '(525 518 517 0 758 0 762 667 0 667 762 0 489 813 0 813 0 0 500 0))
+	(.17 .281 2.770 .2 2.2 7.127 3. 4. .2 4. 3. 4.823 6.5 4. 1.8 4. .5 10 2 200))))
+
 
   (defparameter *zeiss100* 
     (unsplit-optical-system ;; curv index thick
-     `(,(append '(0d0)
-		(mapcar #'/ '(20d0))
-		'(0d0 0d0))
+     `(,(append '(0d0 0d0)
+		(mapcar #'/ '(-100d0))
+		'( 0d0))
 	,(mapcar #'(lambda (x) (+ 1d0 (/ x 1000d0))) 
 		 '(0 500 0))
-	(100 3 100))))
+	(202 3 100))))
 
 
   (defparameter *bla* nil)
@@ -415,66 +424,46 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
   (let ((sys *zeiss100*))
     (defparameter *sys* sys)
     
-    (defparameter *bla* ;; margin ray
-      (let* ((start (v 0 5d0 0.0d0))
+    (defparameter *bla* ;; margin ray green
+      (let* ((start (v 0 0d0 0.0d0))
 	     (dir-x 0d0)
-	     (dir-y 0d0 ;(/ 1.25d0 1.525)
+	     (dir-y (/ .0125d0 1.525)
 	       )
 	     (dir (v dir-x dir-y (sqrt (- 1 (+ (expt dir-x 2)
 					       (expt dir-y 2))))))
-	     (old-index 1d0))
-	(loop for (curv index center-z) in
-	     (calc-centers (accum-thickness sys))
-	   collect	   
-	     (prog1
-		 (if (= curv 0)
-		     (intersect-plane start dir (v 0 0 center-z)
-				      (v 0 0 -1))
-		     (multiple-value-bind (start-new dir-new)
-			 (trace-ray start dir (v 0 0 center-z)
-				    (/ curv)
-				    (/ old-index index))
-		       (setf dir dir-new
-			     start start-new)))
-	       (setf old-index index)))))
+	     (old-index (second (first sys))))
+	(trace-sys sys start dir)))
+
+    (defparameter *bla3* ;; coma ray blue
+      (let* ((start (v 0 0 0))
+	     (dir-x 0d0)
+	     (dir-y (/ .025d0 1.525))
+	     (dir (v dir-x dir-y (sqrt (- 1 (+ (expt dir-x 2)
+					       (expt dir-y 2))))))
+	     (old-index (second (first sys))))
+	(trace-sys sys start dir)))
 
     #+nil
-    (defparameter *bla3* ;; coma ray
-      (let* ((start (v 0 .1596d0 0.0d0))
+    (defparameter *bla2* ;; chief ray red
+      (let* ((start (v 0 0d0 0)) 
 	     (dir-x 0d0)
-	     (dir-y (/ -.5d0 1.525)
-	       )
-	     (dir (v dir-x dir-y (sqrt (- 1 (+ (expt dir-x 2)
-					       (expt dir-y 2))))))
-	     (old-index 1.525d0))
-	(loop for (curv index center-z) in
-	     (calc-centers (accum-thickness sys))
-	   collect	   
-	     (prog1
-		 (if (= curv 0)
-		     (intersect-plane start dir (v 0 0 center-z)
-				      (v 0 0 -1))
-		     (multiple-value-bind (start-new dir-new)
-			 (trace-ray start dir (v 0 0 center-z)
-				    (/ curv)
-				    (/ old-index index))
-		       (setf dir dir-new
-			     start start-new)))
-	       (setf old-index index)))))
-
-    
-
-    (defparameter *bla2* ;; chief ray
-      (let* ((start (v 0 -2d0 0))
-	     (dir-x 0d0)
-	     (dir-y 0d0 ;(/ 10.d0 200d0) ;; y=12.5 mm in intermediate is 202um in sample
+	     (dir-y (/ 10.d0 200d0) ;; y=12.5 mm in intermediate is 202um in sample
 	       )
 	     (dir (v dir-x dir-y (sqrt (- 1 (+ (expt dir-x 2)
 					       (expt dir-y 2))))))
 	     (syss (reverse-optical-system *zeiss100*))
 	     (old-index (second (first syss))))
 	(defparameter *sysss* syss)
-	(trace-sys syss start dir old-index))))
+	(trace-sys syss start dir)))
+    #+nil
+    (defparameter *bla3* ;; coma ray blue
+      (let* ((start (v 0 (aref (first (last *bla2*)) 1) 0.0d0))
+	     (dir-x 0d0)
+	     (dir-y (/ 1.25d0 1.525))
+	     (dir (v dir-x dir-y (sqrt (- 1 (+ (expt dir-x 2)
+					       (expt dir-y 2))))))
+	     (old-index (second (first sys))))
+	(trace-sys sys start dir))))
 
 
 
@@ -492,10 +481,10 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
 	     (cl-who:str (loop for  (curv index center-z) in
 			      (calc-centers (accum-thickness  *zeiss100*))
 			    do
-			      (let* ((sc 12)
+			      (let* ((sc 10)
 				     (h (* sc 7)))
 				(let ((xe (+ 20 (* sc 48.571)))
-				      (rpupil (let* ((m 100) ;; pupil radius is 2.5
+				      (rpupil (let* ((m 100.1) ;; pupil radius is 2.5
 						     (ftl 200)
 						     (f (/ ftl m))
 						     (na 1.25))
