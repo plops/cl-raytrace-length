@@ -367,25 +367,23 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
 
 (defun trace-sys (sys start dir &optional (old-index 1d0))
   (loop for (curv index center-z) in (calc-centers (accum-thickness sys)) collect	   
-       (prog1
-	   (if (= curv 0)
-	       (let* ((n (v 0 0 -1))
-		      (start-new (intersect-plane start dir (v 0 0 center-z)
-						  n))
-		      (dir-new (refract-plane dir n (/ old-index index))))
-		 (setf dir dir-new
-		       start start-new))
-	       (multiple-value-bind (start-new dir-new)
-		   (trace-ray start dir (v 0 0 center-z)
-			      (/ curv)
-			      (/ old-index index))
-		 (setf dir dir-new
-		       start start-new)))
-	 (setf old-index index))))
+       (let ((n (v 0 0 -1))
+	     (cz (v 0 0 center-z))
+	     (eta (/ old-index index)))
+	 (if (= curv 0)
+	     (psetf start (intersect-plane start dir cz n)
+		    dir (refract-plane dir n eta))
+	     (multiple-value-setq (start dir)
+	       (trace-ray start dir cz (/ curv) eta)))
+	 (setf old-index index)
+	 start)))
+
+
+(declaim (optimize (speed 1) (safety 3) (debug 3)))
+
 
 #+nil
 (progn
-
  #+nil (defparameter *zeiss100* 
     (unsplit-optical-system ;; zeiss US2009/0284841 cheap planachromat
      ;; tubelength 200, 100x NA1.25
@@ -465,6 +463,7 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
 	       (setf old-index index)))))
 
     
+
     (defparameter *bla2* ;; chief ray
       (let* ((start (v 0 -2d0 0))
 	     (dir-x 0d0)
@@ -475,17 +474,7 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
 	     (syss (reverse-optical-system *zeiss100*))
 	     (old-index (second (first syss))))
 	(defparameter *sysss* syss)
-	(trace-sys syss start dir old-index)))
-    #+nil
-    (with-open-file (s "/dev/shm/o.dat" :direction :output
-		       :if-does-not-exist :create
-		       :if-exists :supersede)
-      (dolist (e (nth
-		  (floor (length *bla*) 2)
-		  *bla*))
-	(dolist (p e)
-	  (format s "~f ~f~%" (aref p 2) (aref p 0)))
-	(terpri s))))
+	(trace-sys syss start dir old-index))))
 
 
 
