@@ -365,6 +365,24 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
 (calc-centers
  (accum-thickness (reverse-optical-system *zeiss100*)))
 
+(defun trace-sys (sys start dir &optional (old-index 1d0))
+  (loop for (curv index center-z) in (calc-centers (accum-thickness sys)) collect	   
+       (prog1
+	   (if (= curv 0)
+	       (let* ((n (v 0 0 -1))
+		      (start-new (intersect-plane start dir (v 0 0 center-z)
+						  n))
+		      (dir-new (refract-plane dir n (/ old-index index))))
+		 (setf dir dir-new
+		       start start-new))
+	       (multiple-value-bind (start-new dir-new)
+		   (trace-ray start dir (v 0 0 center-z)
+			      (/ curv)
+			      (/ old-index index))
+		 (setf dir dir-new
+		       start start-new)))
+	 (setf old-index index))))
+
 #+nil
 (progn
 
@@ -457,25 +475,7 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
 	     (syss (reverse-optical-system *zeiss100*))
 	     (old-index (second (first syss))))
 	(defparameter *sysss* syss)
-	(loop for (curv index center-z) in
-	     (calc-centers (accum-thickness syss))
-	   collect	   
-	     (prog1
-		 (if (= curv 0)
-		     (let* ((n (v 0 0 -1))
-			    (start-new (intersect-plane start dir (v 0 0 center-z)
-							n))
-			    (dir-new (refract-plane dir n (/ old-index index))))
-		       (setf dir dir-new
-			     start start-new))
-		     (multiple-value-bind (start-new dir-new)
-			 (trace-ray start dir (v 0 0 center-z)
-				    (/ curv)
-				    (/ old-index index))
-		       (setf dir dir-new
-			     start start-new)))
-	       (format t "~a~%" (list (list curv index center-z) start dir))
-	       (setf old-index index)))))
+	(trace-sys syss start dir old-index)))
     #+nil
     (with-open-file (s "/dev/shm/o.dat" :direction :output
 		       :if-does-not-exist :create
