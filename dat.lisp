@@ -386,23 +386,23 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
 (declaim (optimize (speed 1) (safety 3) (debug 3)))
 
 #+nil
-(loop for h in '(.00001 .0001 .001 .005 .01 .1) collect
- (let ((obj (unsplit-optical-system 
-	     ;; zeiss US2009/0284841 cheap planachromat
-	     ;; tubelength 200, 100x NA1.25
-	     ;; visual field factor 20, .28 mm working distance
-	     ;; curv index thick
-	     `(,(append '(0d0 0d0 0d0)
-			(mapcar #'/ '(-1.9845 -32.1451 -5.8498 -87.1808 10.0650
-				      -16.4805 16.4805 -10.0650 87.1808 8.8700
-				      4.4577 2.4528 -2.4528 -4.4577))
-			`(0d0))
-		,(mapcar #'(lambda (x) (+ 1d0 (/ x 1000d0))) 
-			 '(525 518 517 0 758 0 762 667 0 667 762 0 489 813 0 813 0))
-		(.17 .281 2.770 .2 2.2 7.127 3. 4. .2 4. 3. 4.823 6.5 4. 1.8 4. .5)))))
-   (multiple-value-bind (f1 z1) (principal-plane obj h)
-     (multiple-value-bind (f2 z2) (principal-plane (reverse-optical-system obj) h)
-       (list f1 (- f1 (/ f2 1.525)) z1 z2)))))
+(defparameter *princip*
+ (loop for h from .5 upto 2.5 by .5 collect 
+      (let ((obj (unsplit-optical-system 
+		  ;; zeiss US2009/0284841 cheap planachromat
+		  ;; tubelength 200, 100x NA1.25
+		  ;; visual field factor 20, .28 mm working distance
+		  ;; curv index thick
+		  `(,(append '(0d0 0d0 0d0)
+			     (mapcar #'/ '(-1.9845 -32.1451 -5.8498 -87.1808 10.0650
+					   -16.4805 16.4805 -10.0650 87.1808 8.8700
+					   4.4577 2.4528 -2.4528 -4.4577))
+			     `(0d0))
+		     ,(mapcar #'(lambda (x) (+ 1d0 (/ x 1000d0))) 
+			      '(525 518 517 0 758 0 762 667 0 667 762 0 489 813 0 813 0))
+		     (.17 .281 2.770 .2 2.2 7.127 3. 4. .2 4. 3. 4.823 6.5 4. 1.8 4. .5)))))
+	(multiple-value-bind (f2 z2 h2) (principal-plane (reverse-optical-system obj) h)
+	  (list (- 48.571 z2) h)))))
 ;; principal plane z1=27.061 z2'=45.529 
 ;; f=2
 ;; pupil stop defined at zp=48.571
@@ -525,7 +525,12 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
 						      :style "stroke:black; stroke-width:2px;")
 					       (:line :x1 xe :y1 (- 200 (* sc h)) ;; bottom stop
 						      :x2 xe :y2 (- 200 (* sc rpupil))
-						      :style "stroke:black; stroke-width:2px;"))))
+						      :style "stroke:black; stroke-width:2px;")))
+				  (when *princip* 
+				    (loop for (x y) in *princip*
+					 do
+					 (cl-who:htm (:circle :cx (+ 20 (* sc x)) :cy (+ 200 (* sc y)) :r (* sc .06) 
+							      :style "stroke:darkblue; stroke-width:.1px; fill:none;")))))
 				
 				(loop for (color f) in `(("green" ,*bla*) ("blue" ,*bla3*)) do
 				     (when f

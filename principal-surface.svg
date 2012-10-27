@@ -6,6 +6,11 @@
 <circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
 <line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<circle cx='320.07493607699803' cy='250.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='307.39903857330444' cy='300.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='284.81513925674136' cy='350.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='249.29492440537445' cy='400.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='194.35885013675403' cy='450.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
 <line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
 <line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
@@ -33,6 +38,11 @@
 <circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
 <line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<circle cx='320.07493607699803' cy='250.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='307.39903857330444' cy='300.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='284.81513925674136' cy='350.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='249.29492440537445' cy='400.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='194.35885013675403' cy='450.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
 <line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
 <line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
@@ -60,6 +70,11 @@
 <circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
 <line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<circle cx='320.07493607699803' cy='250.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='307.39903857330444' cy='300.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='284.81513925674136' cy='350.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='249.29492440537445' cy='400.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='194.35885013675403' cy='450.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
 <line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
 <line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
@@ -87,6 +102,11 @@
 <circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
 <line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<circle cx='320.07493607699803' cy='250.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='307.39903857330444' cy='300.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='284.81513925674136' cy='350.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='249.29492440537445' cy='400.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='194.35885013675403' cy='450.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
 <line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
 <line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
@@ -116,6 +136,11 @@
 <circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
 <line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<circle cx='320.07493607699803' cy='250.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='307.39903857330444' cy='300.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='284.81513925674136' cy='350.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='249.29492440537445' cy='400.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='194.35885013675403' cy='450.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
 <line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
 <line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
@@ -145,6 +170,11 @@
 <circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
 <line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<circle cx='320.07493607699803' cy='250.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='307.39903857330444' cy='300.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='284.81513925674136' cy='350.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='249.29492440537445' cy='400.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='194.35885013675403' cy='450.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
 <line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
 <line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
@@ -174,6 +204,11 @@
 <circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
 <line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<circle cx='320.07493607699803' cy='250.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='307.39903857330444' cy='300.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='284.81513925674136' cy='350.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='249.29492440537445' cy='400.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='194.35885013675403' cy='450.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
 <line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
 <line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
@@ -203,6 +238,11 @@
 <circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
 <line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<circle cx='320.07493607699803' cy='250.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='307.39903857330444' cy='300.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='284.81513925674136' cy='350.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='249.29492440537445' cy='400.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='194.35885013675403' cy='450.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
 <line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
 <line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
@@ -232,6 +272,11 @@
 <circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
 <line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<circle cx='320.07493607699803' cy='250.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='307.39903857330444' cy='300.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='284.81513925674136' cy='350.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='249.29492440537445' cy='400.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='194.35885013675403' cy='450.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
 <line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
 <line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
@@ -261,6 +306,11 @@
 <circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
 <line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<circle cx='320.07493607699803' cy='250.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='307.39903857330444' cy='300.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='284.81513925674136' cy='350.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='249.29492440537445' cy='400.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='194.35885013675403' cy='450.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
 <line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
 <line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
@@ -290,6 +340,11 @@
 <circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
 <line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<circle cx='320.07493607699803' cy='250.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='307.39903857330444' cy='300.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='284.81513925674136' cy='350.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='249.29492440537445' cy='400.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='194.35885013675403' cy='450.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
 <line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
 <line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
@@ -319,6 +374,11 @@
 <circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
 <line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<circle cx='320.07493607699803' cy='250.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='307.39903857330444' cy='300.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='284.81513925674136' cy='350.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='249.29492440537445' cy='400.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='194.35885013675403' cy='450.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
 <line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
 <line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
@@ -348,6 +408,11 @@
 <circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
 <line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<circle cx='320.07493607699803' cy='250.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='307.39903857330444' cy='300.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='284.81513925674136' cy='350.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='249.29492440537445' cy='400.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='194.35885013675403' cy='450.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
 <line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
 <line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
@@ -377,6 +442,11 @@
 <circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
 <line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<circle cx='320.07493607699803' cy='250.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='307.39903857330444' cy='300.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='284.81513925674136' cy='350.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='249.29492440537445' cy='400.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='194.35885013675403' cy='450.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
 <line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
 <line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
@@ -406,6 +476,11 @@
 <circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
 <line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<circle cx='320.07493607699803' cy='250.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='307.39903857330444' cy='300.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='284.81513925674136' cy='350.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='249.29492440537445' cy='400.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='194.35885013675403' cy='450.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
 <line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
 <line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
@@ -435,6 +510,11 @@
 <circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
 <line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<circle cx='320.07493607699803' cy='250.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='307.39903857330444' cy='300.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='284.81513925674136' cy='350.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='249.29492440537445' cy='400.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='194.35885013675403' cy='450.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
 <line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
 <line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
@@ -464,6 +544,11 @@
 <circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
 <line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<circle cx='320.07493607699803' cy='250.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='307.39903857330444' cy='300.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='284.81513925674136' cy='350.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='249.29492440537445' cy='400.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='194.35885013675403' cy='450.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
 <line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
 <line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
@@ -493,6 +578,11 @@
 <circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
 <line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<circle cx='320.07493607699803' cy='250.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='307.39903857330444' cy='300.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='284.81513925674136' cy='350.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='249.29492440537445' cy='400.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='194.35885013675403' cy='450.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
 <line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
 <line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
@@ -520,6 +610,11 @@
 <circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
 <line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<circle cx='320.07493607699803' cy='250.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='307.39903857330444' cy='300.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='284.81513925674136' cy='350.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='249.29492440537445' cy='400.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='194.35885013675403' cy='450.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
 <line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
 <line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
@@ -549,6 +644,11 @@
 <circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
 <line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<circle cx='320.07493607699803' cy='250.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='307.39903857330444' cy='300.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='284.81513925674136' cy='350.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='249.29492440537445' cy='400.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='194.35885013675403' cy='450.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
 <line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
 <line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
@@ -576,6 +676,11 @@
 <circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
 <line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<circle cx='320.07493607699803' cy='250.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='307.39903857330444' cy='300.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='284.81513925674136' cy='350.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='249.29492440537445' cy='400.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<circle cx='194.35885013675403' cy='450.0' r='6.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
 <line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
 <line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
 <line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
