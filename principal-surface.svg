@@ -1,0 +1,600 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<svg width='500000px' height='5000px' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewbox='0 0 1200 600'>
+<line x1='20' y1='200' x2='5000' y2='200' style='stroke:black; stroke-width:.1px;'></line>
+<line x1='20' y1='450.0' x2='520' y2='450.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<line x1='20' y1='200' x2='212.18545730621761' y2='475.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
+<line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
+<line x1='156.50301696612428' y1='398.0333367260889' x2='344.954018488303' y2='531.5688063982041' style='stroke:green;stroke-width:.1px'></line>
+<line x1='344.954018488303' y1='531.5688063982041' x2='447.51609761991125' y2='573.2893725365825' style='stroke:green;stroke-width:.1px'></line>
+<line x1='447.51609761991125' y1='573.2893725365825' x2='1281.2373759003733' y2='686.1030127951059' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1281.2373759003733' y1='686.1030127951059' x2='1747.5705861545684' y2='733.093179411569' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1747.5705861545684' y1='733.093179411569' x2='1898.473381497124' y2='755.1786647693982' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1898.473381497124' y1='755.1786647693982' x2='2111.817639431789' y2='757.1062905498397' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2111.817639431789' y1='757.1062905498397' x2='2259.596829071281' y2='736.9692345127257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2259.596829071281' y1='736.9692345127257' x2='2728.815857596446' y2='694.1520933120341' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2728.815857596446' y1='694.1520933120341' x2='3306.2029907980914' y2='626.1985958150574' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3306.2029907980914' y1='626.1985958150574' x2='3936.238328905916' y2='467.44110393251367' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3936.238328905916' y1='467.44110393251367' x2='4296.61074662621' y2='347.77238521952927' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4296.61074662621' y1='347.77238521952927' x2='4379.263380392407' y2='345.5279696114093' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4379.263380392407' y1='345.5279696114093' x2='4747.018580058252' y2='454.9171538264517' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4747.018580058252' y1='454.9171538264517' x2='4877.099999999999' y2='455.25733723898225' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='455.25733723898225' x2='24981.83922385993' y2='507.8343985923518' style='stroke:green;stroke-width:.1px'></line>
+<line x1='24981.83922385993' y1='507.8343985923518' x2='25277.1' y2='505.318233243874' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='505.318233243874' x2='45177.100000000006' y2='250.9297367678257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='20' y1='-500' x2='20' y2='900' style='stroke:black;'></line>
+<line x1='20' y1='200' x2='5000' y2='200' style='stroke:black; stroke-width:.1px;'></line>
+<line x1='20' y1='450.0' x2='520' y2='450.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<line x1='20' y1='200' x2='212.18545730621761' y2='475.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
+<line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
+<line x1='156.50301696612428' y1='398.0333367260889' x2='344.954018488303' y2='531.5688063982041' style='stroke:green;stroke-width:.1px'></line>
+<line x1='344.954018488303' y1='531.5688063982041' x2='447.51609761991125' y2='573.2893725365825' style='stroke:green;stroke-width:.1px'></line>
+<line x1='447.51609761991125' y1='573.2893725365825' x2='1281.2373759003733' y2='686.1030127951059' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1281.2373759003733' y1='686.1030127951059' x2='1747.5705861545684' y2='733.093179411569' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1747.5705861545684' y1='733.093179411569' x2='1898.473381497124' y2='755.1786647693982' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1898.473381497124' y1='755.1786647693982' x2='2111.817639431789' y2='757.1062905498397' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2111.817639431789' y1='757.1062905498397' x2='2259.596829071281' y2='736.9692345127257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2259.596829071281' y1='736.9692345127257' x2='2728.815857596446' y2='694.1520933120341' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2728.815857596446' y1='694.1520933120341' x2='3306.2029907980914' y2='626.1985958150574' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3306.2029907980914' y1='626.1985958150574' x2='3936.238328905916' y2='467.44110393251367' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3936.238328905916' y1='467.44110393251367' x2='4296.61074662621' y2='347.77238521952927' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4296.61074662621' y1='347.77238521952927' x2='4379.263380392407' y2='345.5279696114093' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4379.263380392407' y1='345.5279696114093' x2='4747.018580058252' y2='454.9171538264517' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4747.018580058252' y1='454.9171538264517' x2='4877.099999999999' y2='455.25733723898225' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='455.25733723898225' x2='24981.83922385993' y2='507.8343985923518' style='stroke:green;stroke-width:.1px'></line>
+<line x1='24981.83922385993' y1='507.8343985923518' x2='25277.1' y2='505.318233243874' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='505.318233243874' x2='45177.100000000006' y2='250.9297367678257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='-500' x2='37.0' y2='900' style='stroke:black;'></line>
+<line x1='20' y1='200' x2='5000' y2='200' style='stroke:black; stroke-width:.1px;'></line>
+<line x1='20' y1='450.0' x2='520' y2='450.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<line x1='20' y1='200' x2='212.18545730621761' y2='475.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
+<line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
+<line x1='156.50301696612428' y1='398.0333367260889' x2='344.954018488303' y2='531.5688063982041' style='stroke:green;stroke-width:.1px'></line>
+<line x1='344.954018488303' y1='531.5688063982041' x2='447.51609761991125' y2='573.2893725365825' style='stroke:green;stroke-width:.1px'></line>
+<line x1='447.51609761991125' y1='573.2893725365825' x2='1281.2373759003733' y2='686.1030127951059' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1281.2373759003733' y1='686.1030127951059' x2='1747.5705861545684' y2='733.093179411569' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1747.5705861545684' y1='733.093179411569' x2='1898.473381497124' y2='755.1786647693982' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1898.473381497124' y1='755.1786647693982' x2='2111.817639431789' y2='757.1062905498397' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2111.817639431789' y1='757.1062905498397' x2='2259.596829071281' y2='736.9692345127257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2259.596829071281' y1='736.9692345127257' x2='2728.815857596446' y2='694.1520933120341' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2728.815857596446' y1='694.1520933120341' x2='3306.2029907980914' y2='626.1985958150574' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3306.2029907980914' y1='626.1985958150574' x2='3936.238328905916' y2='467.44110393251367' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3936.238328905916' y1='467.44110393251367' x2='4296.61074662621' y2='347.77238521952927' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4296.61074662621' y1='347.77238521952927' x2='4379.263380392407' y2='345.5279696114093' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4379.263380392407' y1='345.5279696114093' x2='4747.018580058252' y2='454.9171538264517' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4747.018580058252' y1='454.9171538264517' x2='4877.099999999999' y2='455.25733723898225' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='455.25733723898225' x2='24981.83922385993' y2='507.8343985923518' style='stroke:green;stroke-width:.1px'></line>
+<line x1='24981.83922385993' y1='507.8343985923518' x2='25277.1' y2='505.318233243874' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='505.318233243874' x2='45177.100000000006' y2='250.9297367678257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='-500' x2='65.10000000000001' y2='900' style='stroke:black;'></line>
+<line x1='20' y1='200' x2='5000' y2='200' style='stroke:black; stroke-width:.1px;'></line>
+<line x1='20' y1='450.0' x2='520' y2='450.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<line x1='20' y1='200' x2='212.18545730621761' y2='475.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
+<line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
+<line x1='156.50301696612428' y1='398.0333367260889' x2='344.954018488303' y2='531.5688063982041' style='stroke:green;stroke-width:.1px'></line>
+<line x1='344.954018488303' y1='531.5688063982041' x2='447.51609761991125' y2='573.2893725365825' style='stroke:green;stroke-width:.1px'></line>
+<line x1='447.51609761991125' y1='573.2893725365825' x2='1281.2373759003733' y2='686.1030127951059' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1281.2373759003733' y1='686.1030127951059' x2='1747.5705861545684' y2='733.093179411569' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1747.5705861545684' y1='733.093179411569' x2='1898.473381497124' y2='755.1786647693982' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1898.473381497124' y1='755.1786647693982' x2='2111.817639431789' y2='757.1062905498397' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2111.817639431789' y1='757.1062905498397' x2='2259.596829071281' y2='736.9692345127257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2259.596829071281' y1='736.9692345127257' x2='2728.815857596446' y2='694.1520933120341' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2728.815857596446' y1='694.1520933120341' x2='3306.2029907980914' y2='626.1985958150574' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3306.2029907980914' y1='626.1985958150574' x2='3936.238328905916' y2='467.44110393251367' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3936.238328905916' y1='467.44110393251367' x2='4296.61074662621' y2='347.77238521952927' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4296.61074662621' y1='347.77238521952927' x2='4379.263380392407' y2='345.5279696114093' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4379.263380392407' y1='345.5279696114093' x2='4747.018580058252' y2='454.9171538264517' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4747.018580058252' y1='454.9171538264517' x2='4877.099999999999' y2='455.25733723898225' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='455.25733723898225' x2='24981.83922385993' y2='507.8343985923518' style='stroke:green;stroke-width:.1px'></line>
+<line x1='24981.83922385993' y1='507.8343985923518' x2='25277.1' y2='505.318233243874' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='505.318233243874' x2='45177.100000000006' y2='250.9297367678257' style='stroke:green;stroke-width:.1px'></line>
+<g stroke='black' fill='none'>
+  <path d='M 342.1 200 a 198.45000000000002 198.45000000000002 0 0 0 -198.45000000000002 -198.45000000000002M 342.1 200 a 198.45000000000002 198.45000000000002 0 0 1 -198.45000000000002 198.45000000000002'></path>
+</g>
+<line x1='20' y1='200' x2='5000' y2='200' style='stroke:black; stroke-width:.1px;'></line>
+<line x1='20' y1='450.0' x2='520' y2='450.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<line x1='20' y1='200' x2='212.18545730621761' y2='475.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
+<line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
+<line x1='156.50301696612428' y1='398.0333367260889' x2='344.954018488303' y2='531.5688063982041' style='stroke:green;stroke-width:.1px'></line>
+<line x1='344.954018488303' y1='531.5688063982041' x2='447.51609761991125' y2='573.2893725365825' style='stroke:green;stroke-width:.1px'></line>
+<line x1='447.51609761991125' y1='573.2893725365825' x2='1281.2373759003733' y2='686.1030127951059' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1281.2373759003733' y1='686.1030127951059' x2='1747.5705861545684' y2='733.093179411569' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1747.5705861545684' y1='733.093179411569' x2='1898.473381497124' y2='755.1786647693982' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1898.473381497124' y1='755.1786647693982' x2='2111.817639431789' y2='757.1062905498397' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2111.817639431789' y1='757.1062905498397' x2='2259.596829071281' y2='736.9692345127257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2259.596829071281' y1='736.9692345127257' x2='2728.815857596446' y2='694.1520933120341' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2728.815857596446' y1='694.1520933120341' x2='3306.2029907980914' y2='626.1985958150574' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3306.2029907980914' y1='626.1985958150574' x2='3936.238328905916' y2='467.44110393251367' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3936.238328905916' y1='467.44110393251367' x2='4296.61074662621' y2='347.77238521952927' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4296.61074662621' y1='347.77238521952927' x2='4379.263380392407' y2='345.5279696114093' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4379.263380392407' y1='345.5279696114093' x2='4747.018580058252' y2='454.9171538264517' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4747.018580058252' y1='454.9171538264517' x2='4877.099999999999' y2='455.25733723898225' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='455.25733723898225' x2='24981.83922385993' y2='507.8343985923518' style='stroke:green;stroke-width:.1px'></line>
+<line x1='24981.83922385993' y1='507.8343985923518' x2='25277.1' y2='505.318233243874' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='505.318233243874' x2='45177.100000000006' y2='250.9297367678257' style='stroke:green;stroke-width:.1px'></line>
+<g stroke='black' fill='none'>
+  <path d='M 362.0999999999999 200 a 3214.5099999999998 3214.5099999999998 0 0 0 -74.72840027578059 -689.0907386790365M 362.0999999999999 200 a 3214.5099999999998 3214.5099999999998 0 0 1 -74.72840027578059 689.0907386790365'></path>
+</g>
+<line x1='20' y1='200' x2='5000' y2='200' style='stroke:black; stroke-width:.1px;'></line>
+<line x1='20' y1='450.0' x2='520' y2='450.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<line x1='20' y1='200' x2='212.18545730621761' y2='475.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
+<line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
+<line x1='156.50301696612428' y1='398.0333367260889' x2='344.954018488303' y2='531.5688063982041' style='stroke:green;stroke-width:.1px'></line>
+<line x1='344.954018488303' y1='531.5688063982041' x2='447.51609761991125' y2='573.2893725365825' style='stroke:green;stroke-width:.1px'></line>
+<line x1='447.51609761991125' y1='573.2893725365825' x2='1281.2373759003733' y2='686.1030127951059' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1281.2373759003733' y1='686.1030127951059' x2='1747.5705861545684' y2='733.093179411569' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1747.5705861545684' y1='733.093179411569' x2='1898.473381497124' y2='755.1786647693982' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1898.473381497124' y1='755.1786647693982' x2='2111.817639431789' y2='757.1062905498397' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2111.817639431789' y1='757.1062905498397' x2='2259.596829071281' y2='736.9692345127257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2259.596829071281' y1='736.9692345127257' x2='2728.815857596446' y2='694.1520933120341' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2728.815857596446' y1='694.1520933120341' x2='3306.2029907980914' y2='626.1985958150574' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3306.2029907980914' y1='626.1985958150574' x2='3936.238328905916' y2='467.44110393251367' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3936.238328905916' y1='467.44110393251367' x2='4296.61074662621' y2='347.77238521952927' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4296.61074662621' y1='347.77238521952927' x2='4379.263380392407' y2='345.5279696114093' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4379.263380392407' y1='345.5279696114093' x2='4747.018580058252' y2='454.9171538264517' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4747.018580058252' y1='454.9171538264517' x2='4877.099999999999' y2='455.25733723898225' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='455.25733723898225' x2='24981.83922385993' y2='507.8343985923518' style='stroke:green;stroke-width:.1px'></line>
+<line x1='24981.83922385993' y1='507.8343985923518' x2='25277.1' y2='505.318233243874' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='505.318233243874' x2='45177.100000000006' y2='250.9297367678257' style='stroke:green;stroke-width:.1px'></line>
+<g stroke='black' fill='none'>
+  <path d='M 582.1 200 a 584.98 584.98 0 0 0 -584.98 -584.98M 582.1 200 a 584.98 584.98 0 0 1 -584.98 584.98'></path>
+</g>
+<line x1='20' y1='200' x2='5000' y2='200' style='stroke:black; stroke-width:.1px;'></line>
+<line x1='20' y1='450.0' x2='520' y2='450.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<line x1='20' y1='200' x2='212.18545730621761' y2='475.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
+<line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
+<line x1='156.50301696612428' y1='398.0333367260889' x2='344.954018488303' y2='531.5688063982041' style='stroke:green;stroke-width:.1px'></line>
+<line x1='344.954018488303' y1='531.5688063982041' x2='447.51609761991125' y2='573.2893725365825' style='stroke:green;stroke-width:.1px'></line>
+<line x1='447.51609761991125' y1='573.2893725365825' x2='1281.2373759003733' y2='686.1030127951059' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1281.2373759003733' y1='686.1030127951059' x2='1747.5705861545684' y2='733.093179411569' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1747.5705861545684' y1='733.093179411569' x2='1898.473381497124' y2='755.1786647693982' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1898.473381497124' y1='755.1786647693982' x2='2111.817639431789' y2='757.1062905498397' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2111.817639431789' y1='757.1062905498397' x2='2259.596829071281' y2='736.9692345127257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2259.596829071281' y1='736.9692345127257' x2='2728.815857596446' y2='694.1520933120341' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2728.815857596446' y1='694.1520933120341' x2='3306.2029907980914' y2='626.1985958150574' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3306.2029907980914' y1='626.1985958150574' x2='3936.238328905916' y2='467.44110393251367' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3936.238328905916' y1='467.44110393251367' x2='4296.61074662621' y2='347.77238521952927' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4296.61074662621' y1='347.77238521952927' x2='4379.263380392407' y2='345.5279696114093' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4379.263380392407' y1='345.5279696114093' x2='4747.018580058252' y2='454.9171538264517' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4747.018580058252' y1='454.9171538264517' x2='4877.099999999999' y2='455.25733723898225' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='455.25733723898225' x2='24981.83922385993' y2='507.8343985923518' style='stroke:green;stroke-width:.1px'></line>
+<line x1='24981.83922385993' y1='507.8343985923518' x2='25277.1' y2='505.318233243874' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='505.318233243874' x2='45177.100000000006' y2='250.9297367678257' style='stroke:green;stroke-width:.1px'></line>
+<g stroke='black' fill='none'>
+  <path d='M 1294.8000000000002 200 a 8718.08 8718.08 0 0 0 -28.02714804560128 -698.4986160610601M 1294.8000000000002 200 a 8718.08 8718.08 0 0 1 -28.02714804560128 698.4986160610601'></path>
+</g>
+<line x1='20' y1='200' x2='5000' y2='200' style='stroke:black; stroke-width:.1px;'></line>
+<line x1='20' y1='450.0' x2='520' y2='450.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<line x1='20' y1='200' x2='212.18545730621761' y2='475.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
+<line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
+<line x1='156.50301696612428' y1='398.0333367260889' x2='344.954018488303' y2='531.5688063982041' style='stroke:green;stroke-width:.1px'></line>
+<line x1='344.954018488303' y1='531.5688063982041' x2='447.51609761991125' y2='573.2893725365825' style='stroke:green;stroke-width:.1px'></line>
+<line x1='447.51609761991125' y1='573.2893725365825' x2='1281.2373759003733' y2='686.1030127951059' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1281.2373759003733' y1='686.1030127951059' x2='1747.5705861545684' y2='733.093179411569' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1747.5705861545684' y1='733.093179411569' x2='1898.473381497124' y2='755.1786647693982' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1898.473381497124' y1='755.1786647693982' x2='2111.817639431789' y2='757.1062905498397' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2111.817639431789' y1='757.1062905498397' x2='2259.596829071281' y2='736.9692345127257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2259.596829071281' y1='736.9692345127257' x2='2728.815857596446' y2='694.1520933120341' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2728.815857596446' y1='694.1520933120341' x2='3306.2029907980914' y2='626.1985958150574' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3306.2029907980914' y1='626.1985958150574' x2='3936.238328905916' y2='467.44110393251367' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3936.238328905916' y1='467.44110393251367' x2='4296.61074662621' y2='347.77238521952927' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4296.61074662621' y1='347.77238521952927' x2='4379.263380392407' y2='345.5279696114093' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4379.263380392407' y1='345.5279696114093' x2='4747.018580058252' y2='454.9171538264517' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4747.018580058252' y1='454.9171538264517' x2='4877.099999999999' y2='455.25733723898225' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='455.25733723898225' x2='24981.83922385993' y2='507.8343985923518' style='stroke:green;stroke-width:.1px'></line>
+<line x1='24981.83922385993' y1='507.8343985923518' x2='25277.1' y2='505.318233243874' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='505.318233243874' x2='45177.100000000006' y2='250.9297367678257' style='stroke:green;stroke-width:.1px'></line>
+<g stroke='black' fill='none'>
+  <path d='M 1594.8000000000002 200 a -1006.5 -1006.5 0 0 0 199.64379575989733 601.6853959331685M 1594.8000000000002 200 a -1006.5 -1006.5 0 0 1 199.64379575989733 -601.6853959331685'></path>
+</g>
+<line x1='20' y1='200' x2='5000' y2='200' style='stroke:black; stroke-width:.1px;'></line>
+<line x1='20' y1='450.0' x2='520' y2='450.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<line x1='20' y1='200' x2='212.18545730621761' y2='475.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
+<line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
+<line x1='156.50301696612428' y1='398.0333367260889' x2='344.954018488303' y2='531.5688063982041' style='stroke:green;stroke-width:.1px'></line>
+<line x1='344.954018488303' y1='531.5688063982041' x2='447.51609761991125' y2='573.2893725365825' style='stroke:green;stroke-width:.1px'></line>
+<line x1='447.51609761991125' y1='573.2893725365825' x2='1281.2373759003733' y2='686.1030127951059' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1281.2373759003733' y1='686.1030127951059' x2='1747.5705861545684' y2='733.093179411569' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1747.5705861545684' y1='733.093179411569' x2='1898.473381497124' y2='755.1786647693982' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1898.473381497124' y1='755.1786647693982' x2='2111.817639431789' y2='757.1062905498397' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2111.817639431789' y1='757.1062905498397' x2='2259.596829071281' y2='736.9692345127257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2259.596829071281' y1='736.9692345127257' x2='2728.815857596446' y2='694.1520933120341' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2728.815857596446' y1='694.1520933120341' x2='3306.2029907980914' y2='626.1985958150574' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3306.2029907980914' y1='626.1985958150574' x2='3936.238328905916' y2='467.44110393251367' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3936.238328905916' y1='467.44110393251367' x2='4296.61074662621' y2='347.77238521952927' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4296.61074662621' y1='347.77238521952927' x2='4379.263380392407' y2='345.5279696114093' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4379.263380392407' y1='345.5279696114093' x2='4747.018580058252' y2='454.9171538264517' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4747.018580058252' y1='454.9171538264517' x2='4877.099999999999' y2='455.25733723898225' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='455.25733723898225' x2='24981.83922385993' y2='507.8343985923518' style='stroke:green;stroke-width:.1px'></line>
+<line x1='24981.83922385993' y1='507.8343985923518' x2='25277.1' y2='505.318233243874' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='505.318233243874' x2='45177.100000000006' y2='250.9297367678257' style='stroke:green;stroke-width:.1px'></line>
+<g stroke='black' fill='none'>
+  <path d='M 1994.8000000000002 200 a 1648.05 1648.05 0 0 0 -137.9639230221262 -660.0824513782919M 1994.8000000000002 200 a 1648.05 1648.05 0 0 1 -137.9639230221262 660.0824513782919'></path>
+</g>
+<line x1='20' y1='200' x2='5000' y2='200' style='stroke:black; stroke-width:.1px;'></line>
+<line x1='20' y1='450.0' x2='520' y2='450.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<line x1='20' y1='200' x2='212.18545730621761' y2='475.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
+<line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
+<line x1='156.50301696612428' y1='398.0333367260889' x2='344.954018488303' y2='531.5688063982041' style='stroke:green;stroke-width:.1px'></line>
+<line x1='344.954018488303' y1='531.5688063982041' x2='447.51609761991125' y2='573.2893725365825' style='stroke:green;stroke-width:.1px'></line>
+<line x1='447.51609761991125' y1='573.2893725365825' x2='1281.2373759003733' y2='686.1030127951059' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1281.2373759003733' y1='686.1030127951059' x2='1747.5705861545684' y2='733.093179411569' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1747.5705861545684' y1='733.093179411569' x2='1898.473381497124' y2='755.1786647693982' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1898.473381497124' y1='755.1786647693982' x2='2111.817639431789' y2='757.1062905498397' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2111.817639431789' y1='757.1062905498397' x2='2259.596829071281' y2='736.9692345127257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2259.596829071281' y1='736.9692345127257' x2='2728.815857596446' y2='694.1520933120341' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2728.815857596446' y1='694.1520933120341' x2='3306.2029907980914' y2='626.1985958150574' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3306.2029907980914' y1='626.1985958150574' x2='3936.238328905916' y2='467.44110393251367' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3936.238328905916' y1='467.44110393251367' x2='4296.61074662621' y2='347.77238521952927' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4296.61074662621' y1='347.77238521952927' x2='4379.263380392407' y2='345.5279696114093' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4379.263380392407' y1='345.5279696114093' x2='4747.018580058252' y2='454.9171538264517' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4747.018580058252' y1='454.9171538264517' x2='4877.099999999999' y2='455.25733723898225' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='455.25733723898225' x2='24981.83922385993' y2='507.8343985923518' style='stroke:green;stroke-width:.1px'></line>
+<line x1='24981.83922385993' y1='507.8343985923518' x2='25277.1' y2='505.318233243874' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='505.318233243874' x2='45177.100000000006' y2='250.9297367678257' style='stroke:green;stroke-width:.1px'></line>
+<g stroke='black' fill='none'>
+  <path d='M 2014.8 200 a -1648.05 -1648.05 0 0 0 137.9639230221262 660.0824513782919M 2014.8 200 a -1648.05 -1648.05 0 0 1 137.9639230221262 -660.0824513782919'></path>
+</g>
+<line x1='20' y1='200' x2='5000' y2='200' style='stroke:black; stroke-width:.1px;'></line>
+<line x1='20' y1='450.0' x2='520' y2='450.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<line x1='20' y1='200' x2='212.18545730621761' y2='475.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
+<line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
+<line x1='156.50301696612428' y1='398.0333367260889' x2='344.954018488303' y2='531.5688063982041' style='stroke:green;stroke-width:.1px'></line>
+<line x1='344.954018488303' y1='531.5688063982041' x2='447.51609761991125' y2='573.2893725365825' style='stroke:green;stroke-width:.1px'></line>
+<line x1='447.51609761991125' y1='573.2893725365825' x2='1281.2373759003733' y2='686.1030127951059' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1281.2373759003733' y1='686.1030127951059' x2='1747.5705861545684' y2='733.093179411569' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1747.5705861545684' y1='733.093179411569' x2='1898.473381497124' y2='755.1786647693982' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1898.473381497124' y1='755.1786647693982' x2='2111.817639431789' y2='757.1062905498397' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2111.817639431789' y1='757.1062905498397' x2='2259.596829071281' y2='736.9692345127257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2259.596829071281' y1='736.9692345127257' x2='2728.815857596446' y2='694.1520933120341' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2728.815857596446' y1='694.1520933120341' x2='3306.2029907980914' y2='626.1985958150574' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3306.2029907980914' y1='626.1985958150574' x2='3936.238328905916' y2='467.44110393251367' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3936.238328905916' y1='467.44110393251367' x2='4296.61074662621' y2='347.77238521952927' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4296.61074662621' y1='347.77238521952927' x2='4379.263380392407' y2='345.5279696114093' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4379.263380392407' y1='345.5279696114093' x2='4747.018580058252' y2='454.9171538264517' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4747.018580058252' y1='454.9171538264517' x2='4877.099999999999' y2='455.25733723898225' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='455.25733723898225' x2='24981.83922385993' y2='507.8343985923518' style='stroke:green;stroke-width:.1px'></line>
+<line x1='24981.83922385993' y1='507.8343985923518' x2='25277.1' y2='505.318233243874' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='505.318233243874' x2='45177.100000000006' y2='250.9297367678257' style='stroke:green;stroke-width:.1px'></line>
+<g stroke='black' fill='none'>
+  <path d='M 2414.8 200 a 1006.5 1006.5 0 0 0 -199.64379575989733 -601.6853959331685M 2414.8 200 a 1006.5 1006.5 0 0 1 -199.64379575989733 601.6853959331685'></path>
+</g>
+<line x1='20' y1='200' x2='5000' y2='200' style='stroke:black; stroke-width:.1px;'></line>
+<line x1='20' y1='450.0' x2='520' y2='450.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<line x1='20' y1='200' x2='212.18545730621761' y2='475.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
+<line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
+<line x1='156.50301696612428' y1='398.0333367260889' x2='344.954018488303' y2='531.5688063982041' style='stroke:green;stroke-width:.1px'></line>
+<line x1='344.954018488303' y1='531.5688063982041' x2='447.51609761991125' y2='573.2893725365825' style='stroke:green;stroke-width:.1px'></line>
+<line x1='447.51609761991125' y1='573.2893725365825' x2='1281.2373759003733' y2='686.1030127951059' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1281.2373759003733' y1='686.1030127951059' x2='1747.5705861545684' y2='733.093179411569' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1747.5705861545684' y1='733.093179411569' x2='1898.473381497124' y2='755.1786647693982' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1898.473381497124' y1='755.1786647693982' x2='2111.817639431789' y2='757.1062905498397' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2111.817639431789' y1='757.1062905498397' x2='2259.596829071281' y2='736.9692345127257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2259.596829071281' y1='736.9692345127257' x2='2728.815857596446' y2='694.1520933120341' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2728.815857596446' y1='694.1520933120341' x2='3306.2029907980914' y2='626.1985958150574' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3306.2029907980914' y1='626.1985958150574' x2='3936.238328905916' y2='467.44110393251367' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3936.238328905916' y1='467.44110393251367' x2='4296.61074662621' y2='347.77238521952927' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4296.61074662621' y1='347.77238521952927' x2='4379.263380392407' y2='345.5279696114093' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4379.263380392407' y1='345.5279696114093' x2='4747.018580058252' y2='454.9171538264517' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4747.018580058252' y1='454.9171538264517' x2='4877.099999999999' y2='455.25733723898225' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='455.25733723898225' x2='24981.83922385993' y2='507.8343985923518' style='stroke:green;stroke-width:.1px'></line>
+<line x1='24981.83922385993' y1='507.8343985923518' x2='25277.1' y2='505.318233243874' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='505.318233243874' x2='45177.100000000006' y2='250.9297367678257' style='stroke:green;stroke-width:.1px'></line>
+<g stroke='black' fill='none'>
+  <path d='M 2714.800000000001 200 a -8718.08 -8718.08 0 0 0 28.02714804560128 698.4986160610601M 2714.800000000001 200 a -8718.08 -8718.08 0 0 1 28.02714804560128 -698.4986160610601'></path>
+</g>
+<line x1='20' y1='200' x2='5000' y2='200' style='stroke:black; stroke-width:.1px;'></line>
+<line x1='20' y1='450.0' x2='520' y2='450.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<line x1='20' y1='200' x2='212.18545730621761' y2='475.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
+<line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
+<line x1='156.50301696612428' y1='398.0333367260889' x2='344.954018488303' y2='531.5688063982041' style='stroke:green;stroke-width:.1px'></line>
+<line x1='344.954018488303' y1='531.5688063982041' x2='447.51609761991125' y2='573.2893725365825' style='stroke:green;stroke-width:.1px'></line>
+<line x1='447.51609761991125' y1='573.2893725365825' x2='1281.2373759003733' y2='686.1030127951059' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1281.2373759003733' y1='686.1030127951059' x2='1747.5705861545684' y2='733.093179411569' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1747.5705861545684' y1='733.093179411569' x2='1898.473381497124' y2='755.1786647693982' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1898.473381497124' y1='755.1786647693982' x2='2111.817639431789' y2='757.1062905498397' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2111.817639431789' y1='757.1062905498397' x2='2259.596829071281' y2='736.9692345127257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2259.596829071281' y1='736.9692345127257' x2='2728.815857596446' y2='694.1520933120341' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2728.815857596446' y1='694.1520933120341' x2='3306.2029907980914' y2='626.1985958150574' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3306.2029907980914' y1='626.1985958150574' x2='3936.238328905916' y2='467.44110393251367' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3936.238328905916' y1='467.44110393251367' x2='4296.61074662621' y2='347.77238521952927' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4296.61074662621' y1='347.77238521952927' x2='4379.263380392407' y2='345.5279696114093' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4379.263380392407' y1='345.5279696114093' x2='4747.018580058252' y2='454.9171538264517' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4747.018580058252' y1='454.9171538264517' x2='4877.099999999999' y2='455.25733723898225' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='455.25733723898225' x2='24981.83922385993' y2='507.8343985923518' style='stroke:green;stroke-width:.1px'></line>
+<line x1='24981.83922385993' y1='507.8343985923518' x2='25277.1' y2='505.318233243874' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='505.318233243874' x2='45177.100000000006' y2='250.9297367678257' style='stroke:green;stroke-width:.1px'></line>
+<g stroke='black' fill='none'>
+  <path d='M 3197.1 200 a -886.9999999999999 -886.9999999999999 0 0 0 214.20223117936382 578.0243613118513M 3197.1 200 a -886.9999999999999 -886.9999999999999 0 0 1 214.20223117936382 -578.0243613118513'></path>
+</g>
+<line x1='20' y1='200' x2='5000' y2='200' style='stroke:black; stroke-width:.1px;'></line>
+<line x1='20' y1='450.0' x2='520' y2='450.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<line x1='20' y1='200' x2='212.18545730621761' y2='475.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
+<line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
+<line x1='156.50301696612428' y1='398.0333367260889' x2='344.954018488303' y2='531.5688063982041' style='stroke:green;stroke-width:.1px'></line>
+<line x1='344.954018488303' y1='531.5688063982041' x2='447.51609761991125' y2='573.2893725365825' style='stroke:green;stroke-width:.1px'></line>
+<line x1='447.51609761991125' y1='573.2893725365825' x2='1281.2373759003733' y2='686.1030127951059' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1281.2373759003733' y1='686.1030127951059' x2='1747.5705861545684' y2='733.093179411569' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1747.5705861545684' y1='733.093179411569' x2='1898.473381497124' y2='755.1786647693982' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1898.473381497124' y1='755.1786647693982' x2='2111.817639431789' y2='757.1062905498397' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2111.817639431789' y1='757.1062905498397' x2='2259.596829071281' y2='736.9692345127257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2259.596829071281' y1='736.9692345127257' x2='2728.815857596446' y2='694.1520933120341' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2728.815857596446' y1='694.1520933120341' x2='3306.2029907980914' y2='626.1985958150574' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3306.2029907980914' y1='626.1985958150574' x2='3936.238328905916' y2='467.44110393251367' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3936.238328905916' y1='467.44110393251367' x2='4296.61074662621' y2='347.77238521952927' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4296.61074662621' y1='347.77238521952927' x2='4379.263380392407' y2='345.5279696114093' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4379.263380392407' y1='345.5279696114093' x2='4747.018580058252' y2='454.9171538264517' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4747.018580058252' y1='454.9171538264517' x2='4877.099999999999' y2='455.25733723898225' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='455.25733723898225' x2='24981.83922385993' y2='507.8343985923518' style='stroke:green;stroke-width:.1px'></line>
+<line x1='24981.83922385993' y1='507.8343985923518' x2='25277.1' y2='505.318233243874' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='505.318233243874' x2='45177.100000000006' y2='250.9297367678257' style='stroke:green;stroke-width:.1px'></line>
+<g stroke='black' fill='none'>
+  <path d='M 3847.100000000001 200 a -445.77 -445.77 0 0 0 445.77 445.77M 3847.100000000001 200 a -445.77 -445.77 0 0 1 445.77 -445.77'></path>
+</g>
+<line x1='20' y1='200' x2='5000' y2='200' style='stroke:black; stroke-width:.1px;'></line>
+<line x1='20' y1='450.0' x2='520' y2='450.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<line x1='20' y1='200' x2='212.18545730621761' y2='475.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
+<line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
+<line x1='156.50301696612428' y1='398.0333367260889' x2='344.954018488303' y2='531.5688063982041' style='stroke:green;stroke-width:.1px'></line>
+<line x1='344.954018488303' y1='531.5688063982041' x2='447.51609761991125' y2='573.2893725365825' style='stroke:green;stroke-width:.1px'></line>
+<line x1='447.51609761991125' y1='573.2893725365825' x2='1281.2373759003733' y2='686.1030127951059' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1281.2373759003733' y1='686.1030127951059' x2='1747.5705861545684' y2='733.093179411569' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1747.5705861545684' y1='733.093179411569' x2='1898.473381497124' y2='755.1786647693982' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1898.473381497124' y1='755.1786647693982' x2='2111.817639431789' y2='757.1062905498397' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2111.817639431789' y1='757.1062905498397' x2='2259.596829071281' y2='736.9692345127257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2259.596829071281' y1='736.9692345127257' x2='2728.815857596446' y2='694.1520933120341' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2728.815857596446' y1='694.1520933120341' x2='3306.2029907980914' y2='626.1985958150574' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3306.2029907980914' y1='626.1985958150574' x2='3936.238328905916' y2='467.44110393251367' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3936.238328905916' y1='467.44110393251367' x2='4296.61074662621' y2='347.77238521952927' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4296.61074662621' y1='347.77238521952927' x2='4379.263380392407' y2='345.5279696114093' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4379.263380392407' y1='345.5279696114093' x2='4747.018580058252' y2='454.9171538264517' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4747.018580058252' y1='454.9171538264517' x2='4877.099999999999' y2='455.25733723898225' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='455.25733723898225' x2='24981.83922385993' y2='507.8343985923518' style='stroke:green;stroke-width:.1px'></line>
+<line x1='24981.83922385993' y1='507.8343985923518' x2='25277.1' y2='505.318233243874' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='505.318233243874' x2='45177.100000000006' y2='250.9297367678257' style='stroke:green;stroke-width:.1px'></line>
+<g stroke='black' fill='none'>
+  <path d='M 4247.1 200 a -245.27999999999997 -245.27999999999997 0 0 0 245.28 245.27999999999997M 4247.1 200 a -245.27999999999997 -245.27999999999997 0 0 1 245.28 -245.27999999999997'></path>
+</g>
+<line x1='20' y1='200' x2='5000' y2='200' style='stroke:black; stroke-width:.1px;'></line>
+<line x1='20' y1='450.0' x2='520' y2='450.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<line x1='20' y1='200' x2='212.18545730621761' y2='475.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
+<line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
+<line x1='156.50301696612428' y1='398.0333367260889' x2='344.954018488303' y2='531.5688063982041' style='stroke:green;stroke-width:.1px'></line>
+<line x1='344.954018488303' y1='531.5688063982041' x2='447.51609761991125' y2='573.2893725365825' style='stroke:green;stroke-width:.1px'></line>
+<line x1='447.51609761991125' y1='573.2893725365825' x2='1281.2373759003733' y2='686.1030127951059' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1281.2373759003733' y1='686.1030127951059' x2='1747.5705861545684' y2='733.093179411569' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1747.5705861545684' y1='733.093179411569' x2='1898.473381497124' y2='755.1786647693982' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1898.473381497124' y1='755.1786647693982' x2='2111.817639431789' y2='757.1062905498397' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2111.817639431789' y1='757.1062905498397' x2='2259.596829071281' y2='736.9692345127257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2259.596829071281' y1='736.9692345127257' x2='2728.815857596446' y2='694.1520933120341' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2728.815857596446' y1='694.1520933120341' x2='3306.2029907980914' y2='626.1985958150574' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3306.2029907980914' y1='626.1985958150574' x2='3936.238328905916' y2='467.44110393251367' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3936.238328905916' y1='467.44110393251367' x2='4296.61074662621' y2='347.77238521952927' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4296.61074662621' y1='347.77238521952927' x2='4379.263380392407' y2='345.5279696114093' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4379.263380392407' y1='345.5279696114093' x2='4747.018580058252' y2='454.9171538264517' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4747.018580058252' y1='454.9171538264517' x2='4877.099999999999' y2='455.25733723898225' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='455.25733723898225' x2='24981.83922385993' y2='507.8343985923518' style='stroke:green;stroke-width:.1px'></line>
+<line x1='24981.83922385993' y1='507.8343985923518' x2='25277.1' y2='505.318233243874' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='505.318233243874' x2='45177.100000000006' y2='250.9297367678257' style='stroke:green;stroke-width:.1px'></line>
+<g stroke='black' fill='none'>
+  <path d='M 4427.099999999999 200 a 245.27999999999997 245.27999999999997 0 0 0 -245.28 -245.27999999999997M 4427.099999999999 200 a 245.27999999999997 245.27999999999997 0 0 1 -245.28 245.27999999999997'></path>
+</g>
+<line x1='20' y1='200' x2='5000' y2='200' style='stroke:black; stroke-width:.1px;'></line>
+<line x1='20' y1='450.0' x2='520' y2='450.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<line x1='20' y1='200' x2='212.18545730621761' y2='475.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
+<line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
+<line x1='156.50301696612428' y1='398.0333367260889' x2='344.954018488303' y2='531.5688063982041' style='stroke:green;stroke-width:.1px'></line>
+<line x1='344.954018488303' y1='531.5688063982041' x2='447.51609761991125' y2='573.2893725365825' style='stroke:green;stroke-width:.1px'></line>
+<line x1='447.51609761991125' y1='573.2893725365825' x2='1281.2373759003733' y2='686.1030127951059' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1281.2373759003733' y1='686.1030127951059' x2='1747.5705861545684' y2='733.093179411569' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1747.5705861545684' y1='733.093179411569' x2='1898.473381497124' y2='755.1786647693982' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1898.473381497124' y1='755.1786647693982' x2='2111.817639431789' y2='757.1062905498397' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2111.817639431789' y1='757.1062905498397' x2='2259.596829071281' y2='736.9692345127257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2259.596829071281' y1='736.9692345127257' x2='2728.815857596446' y2='694.1520933120341' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2728.815857596446' y1='694.1520933120341' x2='3306.2029907980914' y2='626.1985958150574' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3306.2029907980914' y1='626.1985958150574' x2='3936.238328905916' y2='467.44110393251367' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3936.238328905916' y1='467.44110393251367' x2='4296.61074662621' y2='347.77238521952927' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4296.61074662621' y1='347.77238521952927' x2='4379.263380392407' y2='345.5279696114093' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4379.263380392407' y1='345.5279696114093' x2='4747.018580058252' y2='454.9171538264517' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4747.018580058252' y1='454.9171538264517' x2='4877.099999999999' y2='455.25733723898225' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='455.25733723898225' x2='24981.83922385993' y2='507.8343985923518' style='stroke:green;stroke-width:.1px'></line>
+<line x1='24981.83922385993' y1='507.8343985923518' x2='25277.1' y2='505.318233243874' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='505.318233243874' x2='45177.100000000006' y2='250.9297367678257' style='stroke:green;stroke-width:.1px'></line>
+<g stroke='black' fill='none'>
+  <path d='M 4827.1 200 a 445.77 445.77 0 0 0 -445.77 -445.77M 4827.1 200 a 445.77 445.77 0 0 1 -445.77 445.77'></path>
+</g>
+<line x1='20' y1='200' x2='5000' y2='200' style='stroke:black; stroke-width:.1px;'></line>
+<line x1='20' y1='450.0' x2='520' y2='450.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<line x1='20' y1='200' x2='212.18545730621761' y2='475.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
+<line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
+<line x1='156.50301696612428' y1='398.0333367260889' x2='344.954018488303' y2='531.5688063982041' style='stroke:green;stroke-width:.1px'></line>
+<line x1='344.954018488303' y1='531.5688063982041' x2='447.51609761991125' y2='573.2893725365825' style='stroke:green;stroke-width:.1px'></line>
+<line x1='447.51609761991125' y1='573.2893725365825' x2='1281.2373759003733' y2='686.1030127951059' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1281.2373759003733' y1='686.1030127951059' x2='1747.5705861545684' y2='733.093179411569' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1747.5705861545684' y1='733.093179411569' x2='1898.473381497124' y2='755.1786647693982' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1898.473381497124' y1='755.1786647693982' x2='2111.817639431789' y2='757.1062905498397' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2111.817639431789' y1='757.1062905498397' x2='2259.596829071281' y2='736.9692345127257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2259.596829071281' y1='736.9692345127257' x2='2728.815857596446' y2='694.1520933120341' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2728.815857596446' y1='694.1520933120341' x2='3306.2029907980914' y2='626.1985958150574' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3306.2029907980914' y1='626.1985958150574' x2='3936.238328905916' y2='467.44110393251367' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3936.238328905916' y1='467.44110393251367' x2='4296.61074662621' y2='347.77238521952927' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4296.61074662621' y1='347.77238521952927' x2='4379.263380392407' y2='345.5279696114093' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4379.263380392407' y1='345.5279696114093' x2='4747.018580058252' y2='454.9171538264517' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4747.018580058252' y1='454.9171538264517' x2='4877.099999999999' y2='455.25733723898225' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='455.25733723898225' x2='24981.83922385993' y2='507.8343985923518' style='stroke:green;stroke-width:.1px'></line>
+<line x1='24981.83922385993' y1='507.8343985923518' x2='25277.1' y2='505.318233243874' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='505.318233243874' x2='45177.100000000006' y2='250.9297367678257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='-500' x2='4877.099999999999' y2='900' style='stroke:black;'></line>
+<line x1='20' y1='200' x2='5000' y2='200' style='stroke:black; stroke-width:.1px;'></line>
+<line x1='20' y1='450.0' x2='520' y2='450.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<line x1='20' y1='200' x2='212.18545730621761' y2='475.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
+<line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
+<line x1='156.50301696612428' y1='398.0333367260889' x2='344.954018488303' y2='531.5688063982041' style='stroke:green;stroke-width:.1px'></line>
+<line x1='344.954018488303' y1='531.5688063982041' x2='447.51609761991125' y2='573.2893725365825' style='stroke:green;stroke-width:.1px'></line>
+<line x1='447.51609761991125' y1='573.2893725365825' x2='1281.2373759003733' y2='686.1030127951059' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1281.2373759003733' y1='686.1030127951059' x2='1747.5705861545684' y2='733.093179411569' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1747.5705861545684' y1='733.093179411569' x2='1898.473381497124' y2='755.1786647693982' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1898.473381497124' y1='755.1786647693982' x2='2111.817639431789' y2='757.1062905498397' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2111.817639431789' y1='757.1062905498397' x2='2259.596829071281' y2='736.9692345127257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2259.596829071281' y1='736.9692345127257' x2='2728.815857596446' y2='694.1520933120341' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2728.815857596446' y1='694.1520933120341' x2='3306.2029907980914' y2='626.1985958150574' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3306.2029907980914' y1='626.1985958150574' x2='3936.238328905916' y2='467.44110393251367' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3936.238328905916' y1='467.44110393251367' x2='4296.61074662621' y2='347.77238521952927' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4296.61074662621' y1='347.77238521952927' x2='4379.263380392407' y2='345.5279696114093' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4379.263380392407' y1='345.5279696114093' x2='4747.018580058252' y2='454.9171538264517' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4747.018580058252' y1='454.9171538264517' x2='4877.099999999999' y2='455.25733723898225' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='455.25733723898225' x2='24981.83922385993' y2='507.8343985923518' style='stroke:green;stroke-width:.1px'></line>
+<line x1='24981.83922385993' y1='507.8343985923518' x2='25277.1' y2='505.318233243874' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='505.318233243874' x2='45177.100000000006' y2='250.9297367678257' style='stroke:green;stroke-width:.1px'></line>
+<g stroke='black' fill='none'>
+  <path d='M 24977.100000000006 200 a -10000.0 -10000.0 0 0 0 24.450039559904326 698.8583452772099M 24977.100000000006 200 a -10000.0 -10000.0 0 0 1 24.450039559904326 -698.8583452772099'></path>
+</g>
+<line x1='20' y1='200' x2='5000' y2='200' style='stroke:black; stroke-width:.1px;'></line>
+<line x1='20' y1='450.0' x2='520' y2='450.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<line x1='20' y1='200' x2='212.18545730621761' y2='475.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
+<line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
+<line x1='156.50301696612428' y1='398.0333367260889' x2='344.954018488303' y2='531.5688063982041' style='stroke:green;stroke-width:.1px'></line>
+<line x1='344.954018488303' y1='531.5688063982041' x2='447.51609761991125' y2='573.2893725365825' style='stroke:green;stroke-width:.1px'></line>
+<line x1='447.51609761991125' y1='573.2893725365825' x2='1281.2373759003733' y2='686.1030127951059' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1281.2373759003733' y1='686.1030127951059' x2='1747.5705861545684' y2='733.093179411569' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1747.5705861545684' y1='733.093179411569' x2='1898.473381497124' y2='755.1786647693982' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1898.473381497124' y1='755.1786647693982' x2='2111.817639431789' y2='757.1062905498397' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2111.817639431789' y1='757.1062905498397' x2='2259.596829071281' y2='736.9692345127257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2259.596829071281' y1='736.9692345127257' x2='2728.815857596446' y2='694.1520933120341' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2728.815857596446' y1='694.1520933120341' x2='3306.2029907980914' y2='626.1985958150574' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3306.2029907980914' y1='626.1985958150574' x2='3936.238328905916' y2='467.44110393251367' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3936.238328905916' y1='467.44110393251367' x2='4296.61074662621' y2='347.77238521952927' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4296.61074662621' y1='347.77238521952927' x2='4379.263380392407' y2='345.5279696114093' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4379.263380392407' y1='345.5279696114093' x2='4747.018580058252' y2='454.9171538264517' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4747.018580058252' y1='454.9171538264517' x2='4877.099999999999' y2='455.25733723898225' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='455.25733723898225' x2='24981.83922385993' y2='507.8343985923518' style='stroke:green;stroke-width:.1px'></line>
+<line x1='24981.83922385993' y1='507.8343985923518' x2='25277.1' y2='505.318233243874' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='505.318233243874' x2='45177.100000000006' y2='250.9297367678257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='-500' x2='25277.1' y2='900' style='stroke:black;'></line>
+<line x1='20' y1='200' x2='5000' y2='200' style='stroke:black; stroke-width:.1px;'></line>
+<line x1='20' y1='450.0' x2='520' y2='450.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<line x1='20' y1='200' x2='212.18545730621761' y2='475.0' style='stroke:darkblue; stroke-width:.1px;'></line>
+<circle cx='20' cy='200' r='305.0' style='stroke:darkblue; stroke-width:.1px; fill:none;'></circle>
+<line x1='4877.099999999999' y1='70200' x2='4877.099999999999' y2='449.75024975024974' style='stroke:black; stroke-width:2px;'></line>
+<line x1='4877.099999999999' y1='-69800' x2='4877.099999999999' y2='-49.750249750249765' style='stroke:black; stroke-width:2px;'></line>
+<line x1='20.0' y1='200.0' x2='37.0' y2='224.32546179886606' style='stroke:green;stroke-width:.1px'></line>
+<line x1='37.0' y1='224.32546179886606' x2='65.10000000000001' y2='265.1072150856115' style='stroke:green;stroke-width:.1px'></line>
+<line x1='65.10000000000001' y1='265.1072150856115' x2='156.50301696612428' y2='398.0333367260889' style='stroke:green;stroke-width:.1px'></line>
+<line x1='156.50301696612428' y1='398.0333367260889' x2='344.954018488303' y2='531.5688063982041' style='stroke:green;stroke-width:.1px'></line>
+<line x1='344.954018488303' y1='531.5688063982041' x2='447.51609761991125' y2='573.2893725365825' style='stroke:green;stroke-width:.1px'></line>
+<line x1='447.51609761991125' y1='573.2893725365825' x2='1281.2373759003733' y2='686.1030127951059' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1281.2373759003733' y1='686.1030127951059' x2='1747.5705861545684' y2='733.093179411569' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1747.5705861545684' y1='733.093179411569' x2='1898.473381497124' y2='755.1786647693982' style='stroke:green;stroke-width:.1px'></line>
+<line x1='1898.473381497124' y1='755.1786647693982' x2='2111.817639431789' y2='757.1062905498397' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2111.817639431789' y1='757.1062905498397' x2='2259.596829071281' y2='736.9692345127257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2259.596829071281' y1='736.9692345127257' x2='2728.815857596446' y2='694.1520933120341' style='stroke:green;stroke-width:.1px'></line>
+<line x1='2728.815857596446' y1='694.1520933120341' x2='3306.2029907980914' y2='626.1985958150574' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3306.2029907980914' y1='626.1985958150574' x2='3936.238328905916' y2='467.44110393251367' style='stroke:green;stroke-width:.1px'></line>
+<line x1='3936.238328905916' y1='467.44110393251367' x2='4296.61074662621' y2='347.77238521952927' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4296.61074662621' y1='347.77238521952927' x2='4379.263380392407' y2='345.5279696114093' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4379.263380392407' y1='345.5279696114093' x2='4747.018580058252' y2='454.9171538264517' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4747.018580058252' y1='454.9171538264517' x2='4877.099999999999' y2='455.25733723898225' style='stroke:green;stroke-width:.1px'></line>
+<line x1='4877.099999999999' y1='455.25733723898225' x2='24981.83922385993' y2='507.8343985923518' style='stroke:green;stroke-width:.1px'></line>
+<line x1='24981.83922385993' y1='507.8343985923518' x2='25277.1' y2='505.318233243874' style='stroke:green;stroke-width:.1px'></line>
+<line x1='25277.1' y1='505.318233243874' x2='45177.100000000006' y2='250.9297367678257' style='stroke:green;stroke-width:.1px'></line>
+<line x1='45177.100000000006' y1='-500' x2='45177.100000000006' y2='900' style='stroke:black;'></line>
+</svg>

@@ -1,12 +1,12 @@
 (in-package :base)
 
 (eval-when (:compile-toplevel :load-toplevel :execute)
-  (setq *read-default-float-format* 'double-float))
+  (setq *read-default-float-format* 'long-float))
 
 (declaim (inline v copy-vec .+ .- .* ./ dot norm normalize .s))
 
 (deftype num ()
-  `double-float)
+  `long-float)
 
 
 (defconstant +pi+ #.(coerce pi 'num))

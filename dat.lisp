@@ -40,7 +40,7 @@
 
 
 #+nil
-(intersect-sphere (v 0 10 0) (v 0 0 1) (v 0 0 200) 100d0)
+(intersect-sphere (v 0 10 0) (v 0 0 1) (v 0 0 200) 100.0)
 
 #+nil
 (let* ((center (v 0 0 200))
@@ -60,8 +60,8 @@
 (let* ((start (v 10 0 0))
        (dir (v 0 0 1))
        (center (v 0 0 200))
-       (radius 100d0)
-       (n 1.5d0)
+       (radius 100.0)
+       (n 1.5)
        (i (intersect-sphere start dir
 			    center radius)))
   (list i
@@ -110,10 +110,10 @@
 
 #+nil
 (let ((sys (unsplit-optical-system ;; curv index thick
-	    `(,(append '(0d0)
-		       (mapcar #'/ '(100d0))
-		       '(0d0 0d0))
-	       ,(mapcar #'(lambda (x) (+ 1d0 (/ x 1000d0))) 
+	    `(,(append '(0.0)
+		       (mapcar #'/ '(100.0))
+		       '(0.0 0.0))
+	       ,(mapcar #'(lambda (x) (+ 1.0 (/ x 1000.0))) 
 			'(0 500 0))
 	       (0 3 0)))))
   (principal-plane sys))
@@ -385,7 +385,8 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
 
 (declaim (optimize (speed 1) (safety 3) (debug 3)))
 
-(loop for h in '(.001 .002 .003 .004 .005 .006 .01 .1) collect
+#+nil
+(loop for h in '(.00001 .0001 .001 .005 .01 .1) collect
  (let ((obj (unsplit-optical-system 
 	     ;; zeiss US2009/0284841 cheap planachromat
 	     ;; tubelength 200, 100x NA1.25
@@ -402,6 +403,14 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
    (multiple-value-bind (f1 z1) (principal-plane obj h)
      (multiple-value-bind (f2 z2) (principal-plane (reverse-optical-system obj) h)
        (list f1 (- f1 (/ f2 1.525)) z1 z2)))))
+;; principal plane z1=27.061 z2'=45.529 
+;; f=2
+;; pupil stop defined at zp=48.571
+(- 48.571 45.529) ; z2=3.042 measured from object
+(* 1.525 2) ; 3.05 is n*f
+(+ 45.529 2) ; this is the back focal plane position
+#+nil
+(accum-thickness *zeiss100*)
 
 
 #+nil
@@ -449,24 +458,6 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
 	     (old-index (second (first sys))))
 	(trace-sys sys start dir)))
 
-    (defparameter *bla3* ;; coma ray blue
-      (let* ((start (v 0 0 0))
-	     (dir-x 0d0)
-	     (dir-y (/ .25d0 1.525))
-	     (dir (v dir-x dir-y (sqrt (- 1 (+ (expt dir-x 2)
-					       (expt dir-y 2))))))
-	     (old-index (second (first sys))))
-	(trace-sys sys start dir)))
-
-    (defparameter *bla2* ;; coma ray blue
-      (let* ((start (v 0 0 0))
-	     (dir-x 0d0)
-	     (dir-y (/ .125d0 1.525))
-	     (dir (v dir-x dir-y (sqrt (- 1 (+ (expt dir-x 2)
-					       (expt dir-y 2))))))
-	     (old-index (second (first sys))))
-	(trace-sys sys start dir)))
-
     #+nil
     (defparameter *bla2* ;; chief ray red
       (let* ((start (v 0 0d0 0)) 
@@ -505,7 +496,7 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
 	     (cl-who:str (loop for  (curv index center-z) in
 			      (calc-centers (accum-thickness  *zeiss100*))
 			    do
-			      (let* ((sc 10)
+			      (let* ((sc 100)
 				     (h (* sc 7)))
 				(let ((xe (+ 20 (* sc 48.571)))
 				      (rpupil (let* ((m 100.1) ;; pupil radius is 2.5
@@ -513,18 +504,28 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
 						     (f (/ ftl m))
 						     (na 1.25))
 						(* f na))))
-				  (cl-who:htm (:line :x1 20 :y1 200 ;; optical axis
-						     :x2 5000 :y2 200
-						     :style "stroke:black; stroke-width:.1px;")
-					      (:line :x1 100 :y1 (+ 200 (* sc 2.5)) ;; axis at 2.5mm
-						     :x2 300 :y2 (+ 200 (* sc 2.5))
-						     :style "stroke:black; stroke-width:.1px;")
-					      (:line :x1 xe :y1 (+ 200 (* sc h)) ;; top stop
-						     :x2 xe :y2 (+ 200 (* sc rpupil))
-						     :style "stroke:black; stroke-width:2px;")
-					      (:line :x1 xe :y1 (- 200 (* sc h)) ;; bottom stop
-						     :x2 xe :y2 (- 200 (* sc rpupil))
-						     :style "stroke:black; stroke-width:2px;")))
+				  (let ((alpha (asin (/ 1.25 1.525)))
+					(r (* 1.525 2)))
+				    (cl-who:htm (:line :x1 20 :y1 200 ;; optical axis
+						      :x2 5000 :y2 200
+						      :style "stroke:black; stroke-width:.1px;")
+					      
+						(:line :x1 (+ 20 (* sc 0)) :y1 (+ 200 (* sc 2.5)) ;; axis at 2.5mm height
+						       :x2 (+ 20 (* sc 5)) :y2 (+ 200 (* sc 2.5))
+						       :style "stroke:darkblue; stroke-width:.1px;")
+						(:line :x1 (+ 20 (* sc 0)) :y1 (+ 200 (* sc 0)) ;; marginal ray from focus
+						       :x2 (+ 20 (* sc r 1.1 (cos alpha))) :y2 (+ 200 (* sc r 1.1 (sin alpha)))
+						       :style "stroke:darkblue; stroke-width:.1px;")
+						(:circle :cx (+ 20 (* sc 0)) :cy (+ 200 (* sc 0))
+							 :r (* sc r)
+							 :style "stroke:darkblue; stroke-width:.1px; fill:none;")
+					      
+					       (:line :x1 xe :y1 (+ 200 (* sc h)) ;; top stop
+						      :x2 xe :y2 (+ 200 (* sc rpupil))
+						      :style "stroke:black; stroke-width:2px;")
+					       (:line :x1 xe :y1 (- 200 (* sc h)) ;; bottom stop
+						      :x2 xe :y2 (- 200 (* sc rpupil))
+						      :style "stroke:black; stroke-width:2px;"))))
 				
 				(loop for (color f) in `(("green" ,*bla*) ("blue" ,*bla3*)) do
 				     (when f
