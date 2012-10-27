@@ -385,10 +385,11 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
 
 (declaim (optimize (speed 1) (safety 3) (debug 3)))
 
+(defparameter *princip* nil)
 #+nil
 (defparameter *princip*
- (loop for h from .5 upto 2.5 by .5 collect 
-      (let ((obj (unsplit-optical-system 
+ (loop for h from .125 upto 2.5 by .125 collect 
+      (let* ((obj (unsplit-optical-system 
 		  ;; zeiss US2009/0284841 cheap planachromat
 		  ;; tubelength 200, 100x NA1.25
 		  ;; visual field factor 20, .28 mm working distance
@@ -400,8 +401,12 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
 			     `(0d0))
 		     ,(mapcar #'(lambda (x) (+ 1d0 (/ x 1000d0))) 
 			      '(525 518 517 0 758 0 762 667 0 667 762 0 489 813 0 813 0))
-		     (.17 .281 2.770 .2 2.2 7.127 3. 4. .2 4. 3. 4.823 6.5 4. 1.8 4. .5)))))
+		     (.17 .281 2.770 .2 2.2 7.127 3. 4. .2 4. 3. 4.823 6.5 4. 1.8 4. .5))))
+	    (nf (* 1.525 2))
+	    (alpha (asin (/ h nf))))
 	(multiple-value-bind (f2 z2 h2) (principal-plane (reverse-optical-system obj) h)
+	  (format t "~7,3f ~7,5f~%" h (- (* nf (cos alpha))
+				   (- 48.571 z2)))
 	  (list (- 48.571 z2) h)))))
 ;; principal plane z1=27.061 z2'=45.529 
 ;; f=2
