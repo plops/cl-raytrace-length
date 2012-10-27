@@ -73,6 +73,23 @@
     (values i
 	    (refract-sphere i dir center n1/n2 radius))))
 
+(defun trace-sys (sys start dir &key
+				  (old-index (second (first sys)))
+				  (only-points t))
+  (loop for (curv index center-z) in (calc-centers (accum-thickness sys)) collect	   
+       (let ((n (v 0 0 -1))
+	     (cz (v 0 0 center-z))
+	     (eta (/ old-index index)))
+	 (if (= curv 0)
+	     (psetf start (intersect-plane start dir cz n) ;; refract on plane
+		    dir (refract-plane dir n eta))
+	     (multiple-value-setq (start dir) ;; refract on sphere
+	       (trace-ray start dir cz (/ curv) eta)))
+	 (setf old-index index) ;; always remember last index
+	 (if only-points 
+	   start
+	   (list start dir)))))
+
 (defun principal-plane (sys &optional (h 0.0001))
   (let* ((start (v h 0 0))
 	 (dir (v 0 0 1))
@@ -262,17 +279,9 @@
      nil)))
 
 
-#+nil
-(let ((c1 (/ 100d0))
-      (n 1.5d0)
-      (d 10d0))
-  (multiple-value-bind (f s)
-      (principal-plane `((,c1 ,n ,d) (,(- c1) 1 0)))
-    (- (* 2 f) s)))
-
 (defvar *sys* nil)
 
-
+#+nil
 (let* ((d 10d0)
        (f 100d0)
        (n 1.5d0))
@@ -364,34 +373,40 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
 
 #.(require :cl-who)
 
+#+nil
 (accum-thickness *zeiss100*)
-
+#+nil
 (calc-centers (accum-thickness *zeiss100*))
-
+#+nil
 (calc-centers
  (accum-thickness (reverse-optical-system *zeiss100*)))
 
-(defun trace-sys (sys start dir &key
-				  (old-index (second (first sys)))
-				  (only-points t))
-  (loop for (curv index center-z) in (calc-centers (accum-thickness sys)) collect	   
-       (let ((n (v 0 0 -1))
-	     (cz (v 0 0 center-z))
-	     (eta (/ old-index index)))
-	 (if (= curv 0)
-	     (psetf start (intersect-plane start dir cz n) ;; refract on plane
-		    dir (refract-plane dir n eta))
-	     (multiple-value-setq (start dir) ;; refract on sphere
-	       (trace-ray start dir cz (/ curv) eta)))
-	 (setf old-index index) ;; always remember last index
-	 (if only-points 
-	   start
-	   (list start dir)))))
+
 
 (declaim (optimize (speed 1) (safety 3) (debug 3)))
+
+(loop for h in '(.001 .002 .003 .004 .005 .006 .01 .1) collect
+ (let ((obj (unsplit-optical-system 
+	     ;; zeiss US2009/0284841 cheap planachromat
+	     ;; tubelength 200, 100x NA1.25
+	     ;; visual field factor 20, .28 mm working distance
+	     ;; curv index thick
+	     `(,(append '(0d0 0d0 0d0)
+			(mapcar #'/ '(-1.9845 -32.1451 -5.8498 -87.1808 10.0650
+				      -16.4805 16.4805 -10.0650 87.1808 8.8700
+				      4.4577 2.4528 -2.4528 -4.4577))
+			`(0d0))
+		,(mapcar #'(lambda (x) (+ 1d0 (/ x 1000d0))) 
+			 '(525 518 517 0 758 0 762 667 0 667 762 0 489 813 0 813 0))
+		(.17 .281 2.770 .2 2.2 7.127 3. 4. .2 4. 3. 4.823 6.5 4. 1.8 4. .5)))))
+   (multiple-value-bind (f1 z1) (principal-plane obj h)
+     (multiple-value-bind (f2 z2) (principal-plane (reverse-optical-system obj) h)
+       (list f1 (- f1 (/ f2 1.525)) z1 z2)))))
+
+
 #+nil
 (progn
-  #+nil
+  
   (defparameter *zeiss100* 
     (unsplit-optical-system ;; zeiss US2009/0284841 cheap planachromat
      ;; tubelength 200, 100x NA1.25
@@ -401,20 +416,20 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
 		(mapcar #'/ '(-1.9845 -32.1451 -5.8498 -87.1808 10.0650
 			      -16.4805 16.4805 -10.0650 87.1808 8.8700
 			      4.4577 2.4528 -2.4528 -4.4577))
-		`(0d0 0d0 ,(/ -100d0) 0d0))
+		`(0d0 ,(/ 100d0) 0d0 0d0))
 	,(mapcar #'(lambda (x) (+ 1d0 (/ x 1000d0))) 
 		 '(525 518 517 0 758 0 762 667 0 667 762 0 489 813 0 813 0 0 500 0))
-	(.17 .281 2.770 .2 2.2 7.127 3. 4. .2 4. 3. 4.823 6.5 4. 1.8 4. .5 10 2 200))))
-
+	(.17 .281 2.770 .2 2.2 7.127 3. 4. .2 4. 3. 4.823 6.5 4. 1.8 4. .5 201 3 199))))
+  #+nil
 
   (defparameter *zeiss100* 
     (unsplit-optical-system ;; curv index thick
-     `(,(append '(0d0 0d0)
-		(mapcar #'/ '(-100d0))
-		'( 0d0))
+     `(,(append '(0d0)
+		(mapcar #'/ '(100d0))
+		'(0d0 0d0))
 	,(mapcar #'(lambda (x) (+ 1d0 (/ x 1000d0))) 
 		 '(0 500 0))
-	(202 3 100))))
+	(199 3 100))))
 
 
   (defparameter *bla* nil)
@@ -427,7 +442,7 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
     (defparameter *bla* ;; margin ray green
       (let* ((start (v 0 0d0 0.0d0))
 	     (dir-x 0d0)
-	     (dir-y (/ .0125d0 1.525)
+	     (dir-y (/ 1.25d0 1.525)
 	       )
 	     (dir (v dir-x dir-y (sqrt (- 1 (+ (expt dir-x 2)
 					       (expt dir-y 2))))))
@@ -437,7 +452,16 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
     (defparameter *bla3* ;; coma ray blue
       (let* ((start (v 0 0 0))
 	     (dir-x 0d0)
-	     (dir-y (/ .025d0 1.525))
+	     (dir-y (/ .25d0 1.525))
+	     (dir (v dir-x dir-y (sqrt (- 1 (+ (expt dir-x 2)
+					       (expt dir-y 2))))))
+	     (old-index (second (first sys))))
+	(trace-sys sys start dir)))
+
+    (defparameter *bla2* ;; coma ray blue
+      (let* ((start (v 0 0 0))
+	     (dir-x 0d0)
+	     (dir-y (/ .125d0 1.525))
 	     (dir (v dir-x dir-y (sqrt (- 1 (+ (expt dir-x 2)
 					       (expt dir-y 2))))))
 	     (old-index (second (first sys))))
@@ -475,7 +499,7 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
     (format st "~a" "<?xml version='1.0' encoding='iso-8859-1'?>")
     (cl-who:with-html-output (s st :indent t)
       (cl-who:htm 
-       (:svg :width "5000px" :height "5000px"
+       (:svg :width "500000px" :height "5000px"
 	     :version "1.1" :xmlns "http://www.w3.org/2000/svg" :|xmlns:xlink| "http://www.w3.org/1999/xlink" 
 	     :|viewBox| "0 0 1200 600" ;:style "enable-background new 0 0 1200 600;" :|xml:space| "preserve"
 	     (cl-who:str (loop for  (curv index center-z) in
