@@ -1,3 +1,5 @@
+(declaim (optimize (speed 1) (safety 3) (debug 3)))
+
 #.(require :raytrace)
 
 (in-package :raytrace)
@@ -374,7 +376,7 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
 #.(require :cl-who)
 
 #+nil
-(accum-thickness *zeiss100*)
+(accum-tnhickness *zeiss100*)
 #+nil
 (calc-centers (accum-thickness *zeiss100*))
 #+nil
@@ -383,31 +385,31 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
 
 
 
-(declaim (optimize (speed 1) (safety 3) (debug 3)))
+
 
 (defparameter *princip* nil)
 #+nil
 (defparameter *princip*
- (loop for h from .125 upto 2.5 by .125 collect 
-      (let* ((obj (unsplit-optical-system 
-		  ;; zeiss US2009/0284841 cheap planachromat
-		  ;; tubelength 200, 100x NA1.25
-		  ;; visual field factor 20, .28 mm working distance
-		  ;; curv index thick
-		  `(,(append '(0d0 0d0 0d0)
-			     (mapcar #'/ '(-1.9845 -32.1451 -5.8498 -87.1808 10.0650
-					   -16.4805 16.4805 -10.0650 87.1808 8.8700
-					   4.4577 2.4528 -2.4528 -4.4577))
-			     `(0d0))
-		     ,(mapcar #'(lambda (x) (+ 1d0 (/ x 1000d0))) 
-			      '(525 518 517 0 758 0 762 667 0 667 762 0 489 813 0 813 0))
-		     (.17 .281 2.770 .2 2.2 7.127 3. 4. .2 4. 3. 4.823 6.5 4. 1.8 4. .5))))
-	    (nf (* 1.525 2))
-	    (alpha (asin (/ h nf))))
-	(multiple-value-bind (f2 z2 h2) (principal-plane (reverse-optical-system obj) h)
-	  (format t "~7,3f ~7,5f~%" h (- (* nf (cos alpha))
-				   (- 48.571 z2)))
-	  (list (- 48.571 z2) h)))))
+  (loop for h from .125 upto 2.5 by .125 collect 
+       (let* ((obj (unsplit-optical-system 
+		    ;; zeiss US2009/0284841 cheap planachromat
+		    ;; tubelength 200, 100x NA1.25
+		    ;; visual field factor 20, .28 mm working distance
+		    ;; curv index thick
+		    `(,(append '(0d0 0d0 0d0)
+			       (mapcar #'/ '(-1.9845 -32.1451 -5.8498 -87.1808 10.0650
+					     -16.4805 16.4805 -10.0650 87.1808 8.8700
+					     4.4577 2.4528 -2.4528 -4.4577))
+			       `(0d0))
+		       ,(mapcar #'(lambda (x) (+ 1d0 (/ x 1000d0))) 
+				'(525 518 517 0 758 0 762 667 0 667 762 0 489 813 0 813 0))
+		       (.17 .281 2.770 .2 2.2 7.127 3. 4. .2 4. 3. 4.823 6.5 4. 1.8 4. .5))))
+	      (nf (* 1.525 2))
+	      (alpha (asin (/ h nf))))
+	 (multiple-value-bind (f2 z2 h2) (principal-plane (reverse-optical-system obj) h)
+	   (format t "~7,3f ~7,5f~%" h (- (* nf (cos alpha))
+					  (- 48.571 z2)))
+	   (list (- 48.571 z2) h)))))
 ;; principal plane z1=27.061 z2'=45.529 
 ;; f=2
 ;; pupil stop defined at zp=48.571
@@ -489,118 +491,114 @@ asin (/ 1.25 1.525)))) ;; aperture half-angle
 
 
 
-  (with-open-file (st "/dev/shm/o.svg" :direction :output
+  (with-open-file (st "/dev/shm/o.html" :direction :output
 		      :if-does-not-exist :create
 		      :if-exists :supersede)
-    (format st "~a" "<?xml version='1.0' encoding='iso-8859-1'?>")
+   ;;    (format st "~a" "<?xml version='1.0' encoding='iso-8859-1'?>")
     (cl-who:with-html-output (s st :indent t)
       (cl-who:htm 
-       (:svg :width "500000px" :height "5000px"
-	     :version "1.1" :xmlns "http://www.w3.org/2000/svg" :|xmlns:xlink| "http://www.w3.org/1999/xlink" 
-	     :|viewBox| "0 0 1200 600" ;:style "enable-background new 0 0 1200 600;" :|xml:space| "preserve"
-	     (cl-who:str (loop for  (curv index center-z) in
-			      (calc-centers (accum-thickness  *zeiss100*))
-			    do
-			      (let* ((sc 100)
-				     (h (* sc 7)))
-				(let ((xe (+ 20 (* sc 48.571)))
-				      (rpupil (let* ((m 100.1) ;; pupil radius is 2.5
-						     (ftl 200)
-						     (f (/ ftl m))
-						     (na 1.25))
-						(* f na))))
-				  (let ((alpha (asin (/ 1.25 1.525)))
-					(r (* 1.525 2)))
-				    (cl-who:htm (:line :x1 20 :y1 200 ;; optical axis
-						      :x2 5000 :y2 200
-						      :style "stroke:black; stroke-width:.1px;")
+       (:html (:body
+	       (:svg :width "1000px" :height "1000px"
+		     :version "1.1" :xmlns "http://www.w3.org/2000/svg" :|xmlns:xlink| "http://www.w3.org/1999/xlink" 
+		     :|viewBox| "0 0 1200 600" ;:style "enable-background new 0 0 1200 600;" :|xml:space| "preserve"
+		     (cl-who:str (loop for  (curv index center-z) in
+				      (calc-centers (accum-thickness  *zeiss100*))
+				    do
+				      (let* ((sc 2  )
+					     (h (* sc 7)))
+					(let ((xe (+ 20 (* sc 48.571)))
+					      (rpupil (let* ((m 100.1) ;; pupil radius is 2.5
+							     (ftl 200)
+							     (f (/ ftl m))
+							     (na 1.25))
+							(* f na))))
+					  (let ((alpha (asin (/ 1.25 1.525)))
+						(r (* 1.525 2)))
+					    (cl-who:htm (:line :x1 20 :y1 200 ;; optical axis
+							       :x2 5000 :y2 200
+							       :style "stroke:black; stroke-width:.1px;")
 					      
-						(:line :x1 (+ 20 (* sc 0)) :y1 (+ 200 (* sc 2.5)) ;; axis at 2.5mm height
-						       :x2 (+ 20 (* sc 5)) :y2 (+ 200 (* sc 2.5))
-						       :style "stroke:darkblue; stroke-width:.1px;")
-						(:line :x1 (+ 20 (* sc 0)) :y1 (+ 200 (* sc 0)) ;; marginal ray from focus
-						       :x2 (+ 20 (* sc r 1.1 (cos alpha))) :y2 (+ 200 (* sc r 1.1 (sin alpha)))
-						       :style "stroke:darkblue; stroke-width:.1px;")
-						(:circle :cx (+ 20 (* sc 0)) :cy (+ 200 (* sc 0))
-							 :r (* sc r)
-							 :style "stroke:darkblue; stroke-width:.1px; fill:none;")
+							(:line :x1 (+ 20 (* sc 0)) :y1 (+ 200 (* sc 2.5)) ;; axis at 2.5mm height
+							       :x2 (+ 20 (* sc 5)) :y2 (+ 200 (* sc 2.5))
+							       :style "stroke:darkblue; stroke-width:.1px;")
+							(:line :x1 (+ 20 (* sc 0)) :y1 (+ 200 (* sc 0)) ;; marginal ray from focus
+							       :x2 (+ 20 (* sc r 1.1 (cos alpha))) :y2 (+ 200 (* sc r 1.1 (sin alpha)))
+							       :style "stroke:darkblue; stroke-width:.1px;")
+							(:circle :cx (+ 20 (* sc 0)) :cy (+ 200 (* sc 0))
+								 :r (* sc r)
+								 :style "stroke:darkblue; stroke-width:.1px; fill:none;")
 					      
-					       (:line :x1 xe :y1 (+ 200 (* sc h)) ;; top stop
-						      :x2 xe :y2 (+ 200 (* sc rpupil))
-						      :style "stroke:black; stroke-width:2px;")
-					       (:line :x1 xe :y1 (- 200 (* sc h)) ;; bottom stop
-						      :x2 xe :y2 (- 200 (* sc rpupil))
-						      :style "stroke:black; stroke-width:2px;")))
-				  (when *princip* 
-				    (loop for (x y) in *princip*
-					 do
-					 (cl-who:htm (:circle :cx (+ 20 (* sc x)) :cy (+ 200 (* sc y)) :r (* sc .06) 
-							      :style "stroke:darkblue; stroke-width:.1px; fill:none;")))))
+							(:line :x1 xe :y1 (+ 200 (* sc h)) ;; top stop
+							       :x2 xe :y2 (+ 200 (* sc rpupil))
+							       :style "stroke:black; stroke-width:2px;")
+							(:line :x1 xe :y1 (- 200 (* sc h)) ;; bottom stop
+							       :x2 xe :y2 (- 200 (* sc rpupil))
+							       :style "stroke:black; stroke-width:2px;")))
+					  (when *princip* 
+					    (loop for (x y) in *princip*
+					       do
+						 (cl-who:htm (:circle :cx (+ 20 (* sc x)) :cy (+ 200 (* sc y)) :r (* sc .06) 
+								      :style "stroke:darkblue; stroke-width:.1px; fill:none;")))))
 				
-				(loop for (color f) in `(("green" ,*bla*) ("blue" ,*bla3*)) do
-				     (when f
-				       (loop for i from 1 below (length f) and e in f do
-					    (let ((x1 (format nil "~a" (+ 20 (* sc (aref e 2)))))
-						  (y1 (format nil "~a" (+ 200 (* sc (aref e 1)))))
-						  (x2 (format nil "~a" (+ 20 (* sc (aref (elt f i) 2)))))
-						 (y2 (format nil "~a" (+ 200 (* sc (aref (elt f i) 1))))))
-					     (cl-who:htm (:line :x1 x1 :y1 y1
-								:x2 x2 :y2 y2
-								:style (format nil "stroke:~a;stroke-width:.1px"
-									       color)))))))
+					(loop for (color f) in `(("green" ,*bla*) ("blue" ,*bla3*)) do
+					     (when f
+					       (loop for i from 1 below (length f) and e in f do
+						    (let ((x1 (format nil "~a" (+ 20 (* sc (aref e 2)))))
+							  (y1 (format nil "~a" (+ 200 (* sc (aref e 1)))))
+							  (x2 (format nil "~a" (+ 20 (* sc (aref (elt f i) 2)))))
+							  (y2 (format nil "~a" (+ 200 (* sc (aref (elt f i) 1))))))
+						      (cl-who:htm (:line :x1 x1 :y1 y1
+									 :x2 x2 :y2 y2
+									 :style (format nil "stroke:~a;stroke-width:.1px"
+											color)))))))
 				
-				(when *bla2*
-				 (loop for i from 1 below (length *bla2*) and e in *bla2* do
-				      (let* ((len (aref (first (last *bla2*)) 2))
-					     (x1 (format nil "~a" (+ 20 (* sc (- len (aref e 2))))))
-					     (y1 (format nil "~a" (+ 200 (* sc (aref e 1)))))
-					     (x2 (format nil "~a" (+ 20 (* sc (- len (aref (elt *bla2* i) 2))))))
-					    (y2 (format nil "~a" (+ 200 (* sc (aref (elt *bla2* i) 1))))))
-					(cl-who:htm (:line :x1 x1 :y1 y1
-							   :x2 x2 :y2 y2
-							   :style "stroke:red;stroke-width:.1px")))))
-				(if (= 0 curv)
-				    (let ((x (format nil "~a" (+ 20 (* sc center-z)))))
-				      (cl-who:htm (:line :x1 x :y1 (format nil "~a" (- 200 h))
-							 :x2 x :y2 (format nil "~a" (+ 200 h))
-							 :style "stroke:black;")))
+					(when *bla2*
+					  (loop for i from 1 below (length *bla2*) and e in *bla2* do
+					       (let* ((len (aref (first (last *bla2*)) 2))
+						      (x1 (format nil "~a" (+ 20 (* sc (- len (aref e 2))))))
+						      (y1 (format nil "~a" (+ 200 (* sc (aref e 1)))))
+						      (x2 (format nil "~a" (+ 20 (* sc (- len (aref (elt *bla2* i) 2))))))
+						      (y2 (format nil "~a" (+ 200 (* sc (aref (elt *bla2* i) 1))))))
+						 (cl-who:htm (:line :x1 x1 :y1 y1
+								    :x2 x2 :y2 y2
+								    :style "stroke:red;stroke-width:.1px")))))
+					(if (= 0 curv)
+					    (let ((x (format nil "~a" (+ 20 (* sc center-z)))))
+					      (cl-who:htm (:line :x1 x :y1 (format nil "~a" (- 200 h))
+								 :x2 x :y2 (format nil "~a" (+ 200 h))
+								 :style "stroke:black;")))
 				    
 				    
-				    (cl-who:htm 
+					    (cl-who:htm 
 				     
-				     #+nil (:circle :cx (+ 200 center-z)
-						    :cy 200
-						    :r (/ (abs curv))
-						    :style "stroke: red; stroke-width: 3; fill:none;")
-				     (:g :stroke "black" :fill "none" 
-					 (:path :d (let* ((r (* sc (-  (/ curv))))
-							  (cz (* sc center-z))
-							  ;; (alpha (* (- 180 20) pi (/ 180)))
-							  (alpha (if (< h (abs r))
-								 (- pi (sin (/ h (abs r))))
-								 (* (- 180 90) pi (/ 180))
-								 ))
-							  (x (- (+ r (* r (cos alpha)))))
-							  (y (* -1 r (sin alpha))))
-						     (concatenate 'string
-								  ;; (rx ry x-axis-rotation large-arc-flag sweep-flag x y)+
-								  (format nil "M ~a 200 a ~a ~a 0 0 0 ~a ~a"
-									  (+ 20 r cz)
-									  r r
-									  x y)
-								  (format nil "M ~a 200 a ~a ~a 0 0 1 ~a ~a"
-									  (+ 20 r cz)
-									  r r
-									  x (- y))))))))))))))))
+					     #+nil (:circle :cx (+ 200 center-z)
+							    :cy 200
+							    :r (/ (abs curv))
+							    :style "stroke: red; stroke-width: 3; fill:none;")
+					     (:g :stroke "black" :fill "none" 
+						 (:path :d (let* ((r (* sc (-  (/ curv))))
+								  (cz (* sc center-z))
+								  ;; (alpha (* (- 180 20) pi (/ 180)))
+								  (alpha (if (< h (abs r))
+									 (- pi (sin (/ h (abs r))))
+									 (* (- 180 90) pi (/ 180))
+									 ))
+								  (x (- (+ r (* r (cos alpha)))))
+								  (y (* -1 r (sin alpha))))
+							     (concatenate 'string
+									  ;; (rx ry x-axis-rotation large-arc-flag sweep-flag x y)+
+									  (format nil "M ~a 200 a ~a ~a 0 0 0 ~a ~a"
+										  (+ 20 r cz)
+										  r r
+										  x y)
+									  (format nil "M ~a 200 a ~a ~a 0 0 1 ~a ~a"
+										  (+ 20 r cz)
+										  r r
+										  x (- y))))))))))))))))))
 
 
 
-    (with-open-file (s "/dev/shm/index.html" :direction :output
-		       :if-does-not-exist :create
-		       :if-exists :supersede)
-      (cl-who:with-html-output (s)
-	(cl-who:htm (:html (:body (:img :src "file:///dev/shm/o.svg")
-				  (:p "hallo"))))))
+
 
 
 
